@@ -1,0 +1,10 @@
+pycache/
+*.py[cod]
+*$py.class
+
+.env
+
+.DS_Store
+Thumbs.db
+
+app/data_layer/raw/
