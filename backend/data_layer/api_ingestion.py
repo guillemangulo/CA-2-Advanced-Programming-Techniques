@@ -15,7 +15,7 @@ def get_bootstrap():
         print(f"CRITICAL: Failed to get bootstrap. {e}")
         return None
 
-def get_last_gw(event_id):
+def get_last_gw(event_id=1):
     url = f"{FPL_BASE}/event/{event_id}/live/"
     try:
         res = requests.get(url)
@@ -37,6 +37,7 @@ def run_data_extraction():
         event for event in base_data['events'] 
         if event['finished'] and event['data_checked']
     ]
+    print(completed_gameweek)
     
     if not completed_gameweek:
         print("No completed gameweeks found.")
