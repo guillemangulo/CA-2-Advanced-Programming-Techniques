@@ -1,0 +1,116 @@
+{
+  "_id": "summary_gw_12",
+  "gameweek": 12,
+  "mvp": {
+    "name": "Eberechi Eze",
+    "team": "Arsenal",
+    "points": 20,
+    "goals": 3
+  },
+  "top_scorers": [
+    {
+      "name": "Eberechi Eze",
+      "team": "Arsenal",
+      "goals": 3
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Jordan Pickford",
+      "team": "Everton",
+      "total_points": 10
+    },
+    {
+      "name": "Murillo Costa dos Santos",
+      "team": "Nott'm Forest",
+      "total_points": 17
+    },
+    {
+      "name": "Daniel Mu\u00f1oz Mej\u00eda",
+      "team": "Crystal Palace",
+      "total_points": 14
+    },
+    {
+      "name": "Neco Williams",
+      "team": "Nott'm Forest",
+      "total_points": 13
+    },
+    {
+      "name": "Eberechi Eze",
+      "team": "Arsenal",
+      "total_points": 20
+    },
+    {
+      "name": "Harvey Barnes",
+      "team": "Newcastle",
+      "total_points": 15
+    },
+    {
+      "name": "Morgan Rogers",
+      "team": "Aston Villa",
+      "total_points": 15
+    },
+    {
+      "name": "Kiernan Dewsbury-Hall",
+      "team": "Everton",
+      "total_points": 13
+    },
+    {
+      "name": "Callum Wilson",
+      "team": "West Ham",
+      "total_points": 12
+    },
+    {
+      "name": "Danny Welbeck",
+      "team": "Brighton",
+      "total_points": 8
+    },
+    {
+      "name": "Lukas Nmecha",
+      "team": "Leeds",
+      "total_points": 8
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Arsenal",
+        "value": 4
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Chelsea",
+        "value": 0
+      },
+      {
+        "team": "Crystal Palace",
+        "value": 0
+      },
+      {
+        "team": "Everton",
+        "value": 0
+      },
+      {
+        "team": "Fulham",
+        "value": 0
+      },
+      {
+        "team": "Nott'm Forest",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Leeds",
+        "value": 5
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Nott'm Forest",
+        "value": 0
+      }
+    ]
+  }
+}

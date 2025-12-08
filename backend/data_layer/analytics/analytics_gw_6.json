@@ -1,0 +1,134 @@
+{
+  "_id": "summary_gw_6",
+  "gameweek": 6,
+  "mvp": {
+    "name": "Omar Alderete",
+    "team": "Sunderland",
+    "points": 17,
+    "goals": 1
+  },
+  "top_scorers": [
+    {
+      "name": "Igor Thiago Nascimento Rodrigues",
+      "team": "Brentford",
+      "goals": 2
+    },
+    {
+      "name": "Danny Welbeck",
+      "team": "Brighton",
+      "goals": 2
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "goals": 2
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Robin Roefs",
+      "team": "Sunderland",
+      "total_points": 10
+    },
+    {
+      "name": "Omar Alderete",
+      "team": "Sunderland",
+      "total_points": 17
+    },
+    {
+      "name": "Gabriel dos Santos Magalh\u00e3es",
+      "team": "Arsenal",
+      "total_points": 13
+    },
+    {
+      "name": "Matheus Nunes",
+      "team": "Man City",
+      "total_points": 12
+    },
+    {
+      "name": "Sean Longstaff",
+      "team": "Leeds",
+      "total_points": 15
+    },
+    {
+      "name": "Emiliano Buend\u00eda Stati",
+      "team": "Aston Villa",
+      "total_points": 12
+    },
+    {
+      "name": "Isma\u00efla Sarr",
+      "team": "Crystal Palace",
+      "total_points": 11
+    },
+    {
+      "name": "J\u00e9r\u00e9my Doku",
+      "team": "Man City",
+      "total_points": 10
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "total_points": 16
+    },
+    {
+      "name": "Igor Thiago Nascimento Rodrigues",
+      "team": "Brentford",
+      "total_points": 13
+    },
+    {
+      "name": "Danny Welbeck",
+      "team": "Brighton",
+      "total_points": 11
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Aston Villa",
+        "value": 3
+      },
+      {
+        "team": "Brentford",
+        "value": 3
+      },
+      {
+        "team": "Brighton",
+        "value": 3
+      },
+      {
+        "team": "Man City",
+        "value": 3
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Sunderland",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Brighton",
+        "value": 5
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 1
+      },
+      {
+        "team": "Aston Villa",
+        "value": 1
+      },
+      {
+        "team": "Crystal Palace",
+        "value": 1
+      },
+      {
+        "team": "Man City",
+        "value": 1
+      }
+    ]
+  }
+}

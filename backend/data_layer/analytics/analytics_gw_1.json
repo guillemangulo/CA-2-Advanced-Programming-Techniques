@@ -1,0 +1,163 @@
+{
+  "_id": "summary_gw_1",
+  "gameweek": 1,
+  "mvp": {
+    "name": "Daniel Ballard",
+    "team": "Sunderland",
+    "points": 17,
+    "goals": 1
+  },
+  "top_scorers": [
+    {
+      "name": "Antoine Semenyo",
+      "team": "Bournemouth",
+      "goals": 2
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "goals": 2
+    },
+    {
+      "name": "Chris Wood",
+      "team": "Nott'm Forest",
+      "goals": 2
+    },
+    {
+      "name": "Richarlison de Andrade",
+      "team": "Spurs",
+      "goals": 2
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "David Raya Mart\u00edn",
+      "team": "Arsenal",
+      "total_points": 10
+    },
+    {
+      "name": "Daniel Ballard",
+      "team": "Sunderland",
+      "total_points": 17
+    },
+    {
+      "name": "Riccardo Calafiori",
+      "team": "Arsenal",
+      "total_points": 13
+    },
+    {
+      "name": "Rico Lewis",
+      "team": "Man City",
+      "total_points": 11
+    },
+    {
+      "name": "Antoine Semenyo",
+      "team": "Bournemouth",
+      "total_points": 15
+    },
+    {
+      "name": "Tijjani Reijnders",
+      "team": "Man City",
+      "total_points": 10
+    },
+    {
+      "name": "Matt O'Riley",
+      "team": "Brighton",
+      "total_points": 10
+    },
+    {
+      "name": "Mohammed Kudus",
+      "team": "Spurs",
+      "total_points": 10
+    },
+    {
+      "name": "Chris Wood",
+      "team": "Nott'm Forest",
+      "total_points": 13
+    },
+    {
+      "name": "Richarlison de Andrade",
+      "team": "Spurs",
+      "total_points": 13
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "total_points": 13
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Liverpool",
+        "value": 4
+      },
+      {
+        "team": "Man City",
+        "value": 4
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Aston Villa",
+        "value": 0
+      },
+      {
+        "team": "Chelsea",
+        "value": 0
+      },
+      {
+        "team": "Crystal Palace",
+        "value": 0
+      },
+      {
+        "team": "Leeds",
+        "value": 0
+      },
+      {
+        "team": "Man City",
+        "value": 0
+      },
+      {
+        "team": "Newcastle",
+        "value": 0
+      },
+      {
+        "team": "Spurs",
+        "value": 0
+      },
+      {
+        "team": "Sunderland",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 4
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Burnley",
+        "value": 0
+      },
+      {
+        "team": "Leeds",
+        "value": 0
+      },
+      {
+        "team": "Spurs",
+        "value": 0
+      },
+      {
+        "team": "Sunderland",
+        "value": 0
+      }
+    ]
+  }
+}

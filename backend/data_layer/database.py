@@ -1,8 +1,6 @@
 import json
 import os
-from pathlib import Path
-from datetime import datetime
-from pymongo import MongoClient, UpdateOne
+from pymongo import MongoClient
 from dotenv import load_dotenv
 
 
@@ -14,53 +12,61 @@ COLLECTION = os.getenv("COLLECTION")
 
 if not MONGO_URI:
     print("Error: No MONGO_URI found in .env file")
-    exit(1)
+    exit()
 
 #convert some string fields into float
 def clean_metrics(stats):
     
+    if not stats:
+        return {}
+    
     cleaned = stats.copy()
 
-    try:
-        cleaned['influence'] = float(stats.get('influence', 0))
-        cleaned['creativity'] = float(stats.get('creativity', 0))
-        cleaned['threat'] = float(stats.get('threat', 0))
-        cleaned['ict_index'] = float(stats.get('ict_index', 0))     
-        cleaned['expected_goals'] = float(stats.get('expected_goals', 0))
-        cleaned['expected_assists'] = float(stats.get('expected_assists', 0))
-        cleaned['expected_goal_involvements'] = float(stats.get('expected_goal_involvements', 0))
-        cleaned['expected_goals_conceded'] = float(stats.get('expected_goals_conceded', 0))
-        
-    except Exception as e:
-        print(e)
+    #should be floats
+    fields_to_convert = [
+        'influence', 'creativity', 'threat', 'ict_index',
+        'expected_goals', 'expected_assists',
+        'expected_goal_involvements', 'expected_goals_conceded'
+    ]
+
+    for field in fields_to_convert:
+        if field in cleaned:
+            try:
+                cleaned[field] = float(cleaned[field])
+            except:
+                #e.g empty string
+                cleaned[field] = 0.0
+    
     return cleaned
 
-def upload_mongo(json_file_path):
-    print(f"Processing file: {json_file_path}...")
+def upload_to_mongo(json_file_path):
+    print(f"Reading file: {json_file_path}...")
 
     #connection
     try:
         client = MongoClient(MONGO_URI)
         db = client[DB_NAME]
-        collection = db[COLLECTION]
+        col = db[COLLECTION]
     except Exception as e:
-        print(f"Error: Failed while connecting to MongoDB Atlas: {e}")
+        print(f"Database connection error: {e}")
         return
 
     try:
-        with open(json_file_path, 'r') as f:
-            data = json.load(f)
+        with open(json_file_path, 'r') as file:
+            data = json.load(file)
 
-        operations = []
+        count = 0
         
-        #each player id for each gameweek
+        #each player id for specific gameweek
         for player in data:
-    
-            unique_id = f"gw{player['gameweek_index']}_p{player['player_id']}"
+            gw_index = str(player['gameweek_index'])
+            player_id = str(player['player_id'])
+            unique_id = "gw" + gw_index + "_p" + player_id
             
-            raw_stats = player.get('stadistics')
-            clean_stats = clean_metrics(raw_stats)
+            statistics = player.get('statistics')
+            clean_stats = clean_metrics(statistics)
 
+            #prepare to upload in mongo
             doc = {
                 "_id": unique_id,
                 "player_id": player['player_id'],
@@ -68,22 +74,17 @@ def upload_mongo(json_file_path):
                 "team": player['team'],
                 "position_id": player['position_code'],
                 "gameweek": player['gameweek_index'],
-                "stats": clean_stats,
+                "statistics": clean_stats,
             }
 
-            #if exist update, otherwise create it                   TODO: document it
-            operations.append(
-                UpdateOne({"_id": unique_id}, {"$set": doc}, upsert=True)
-            )
+            # TODO: Document replace_one
+            col.replace_one({"_id": unique_id}, doc, upsert=True)
+            count = count + 1
 
-        if operations:
-            result = collection.bulk_write(operations)
-            print(f"Inserted: {result.upserted_count}, Uploaded: {result.modified_count}")
-        else:
-            print("Empty JSON or without valid data")
-
+        print("Processed " + str(count) + " players")
+           
     except FileNotFoundError:
-        print(f"Error: File {json_file_path} not found")
+        print(f"File {json_file_path} not found")
     except Exception as e:
         print(e)
     finally:
@@ -98,6 +99,6 @@ if __name__ == "__main__":
         for filename in files:
             if filename.endswith(".json"):
                 full_path = os.path.join(folder_path, filename)
-                upload_mongo(full_path)
+                upload_to_mongo(full_path)
     else:
         print(f"No folder found: {folder_path}")

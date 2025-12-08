@@ -1,0 +1,138 @@
+{
+  "_id": "summary_gw_9",
+  "gameweek": 9,
+  "mvp": {
+    "name": "Micky van de Ven",
+    "team": "Spurs",
+    "points": 23,
+    "goals": 2
+  },
+  "top_scorers": [
+    {
+      "name": "Bryan Mbeumo",
+      "team": "Man Utd",
+      "goals": 2
+    },
+    {
+      "name": "Zian Flemming",
+      "team": "Burnley",
+      "goals": 2
+    },
+    {
+      "name": "Micky van de Ven",
+      "team": "Spurs",
+      "goals": 2
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Emiliano Mart\u00ednez Romero",
+      "team": "Aston Villa",
+      "total_points": 8
+    },
+    {
+      "name": "Micky van de Ven",
+      "team": "Spurs",
+      "total_points": 23
+    },
+    {
+      "name": "Matty Cash",
+      "team": "Aston Villa",
+      "total_points": 15
+    },
+    {
+      "name": "Joe Rodon",
+      "team": "Leeds",
+      "total_points": 13
+    },
+    {
+      "name": "Bryan Mbeumo",
+      "team": "Man Utd",
+      "total_points": 15
+    },
+    {
+      "name": "Carlos Henrique Casimiro",
+      "team": "Man Utd",
+      "total_points": 15
+    },
+    {
+      "name": "Dango Ouattara",
+      "team": "Brentford",
+      "total_points": 11
+    },
+    {
+      "name": "Eberechi Eze",
+      "team": "Arsenal",
+      "total_points": 11
+    },
+    {
+      "name": "Zian Flemming",
+      "team": "Burnley",
+      "total_points": 13
+    },
+    {
+      "name": "Lyle Foster",
+      "team": "Burnley",
+      "total_points": 7
+    },
+    {
+      "name": "Wilson Isidor",
+      "team": "Sunderland",
+      "total_points": 7
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Man Utd",
+        "value": 4
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Aston Villa",
+        "value": 0
+      },
+      {
+        "team": "Bournemouth",
+        "value": 0
+      },
+      {
+        "team": "Spurs",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Man City",
+        "value": 4
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Burnley",
+        "value": 0
+      },
+      {
+        "team": "Crystal Palace",
+        "value": 0
+      },
+      {
+        "team": "Newcastle",
+        "value": 0
+      },
+      {
+        "team": "Spurs",
+        "value": 0
+      }
+    ]
+  }
+}

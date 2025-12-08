@@ -1,0 +1,161 @@
+{
+  "_id": "summary_gw_4",
+  "gameweek": 4,
+  "mvp": {
+    "name": "Mart\u00edn Zubimendi Ib\u00e1\u00f1ez",
+    "team": "Arsenal",
+    "points": 16,
+    "goals": 2
+  },
+  "top_scorers": [
+    {
+      "name": "Mart\u00edn Zubimendi Ib\u00e1\u00f1ez",
+      "team": "Arsenal",
+      "goals": 2
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "goals": 2
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Robin Roefs",
+      "team": "Sunderland",
+      "total_points": 10
+    },
+    {
+      "name": "Micky van de Ven",
+      "team": "Spurs",
+      "total_points": 14
+    },
+    {
+      "name": "Cristian Romero",
+      "team": "Spurs",
+      "total_points": 12
+    },
+    {
+      "name": "Joachim Andersen",
+      "team": "Fulham",
+      "total_points": 10
+    },
+    {
+      "name": "Mart\u00edn Zubimendi Ib\u00e1\u00f1ez",
+      "team": "Arsenal",
+      "total_points": 16
+    },
+    {
+      "name": "Antoine Semenyo",
+      "team": "Bournemouth",
+      "total_points": 13
+    },
+    {
+      "name": "Mois\u00e9s Caicedo Corozo",
+      "team": "Chelsea",
+      "total_points": 12
+    },
+    {
+      "name": "Phil Foden",
+      "team": "Man City",
+      "total_points": 12
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "total_points": 13
+    },
+    {
+      "name": "Nick Woltemade",
+      "team": "Newcastle",
+      "total_points": 9
+    },
+    {
+      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+      "team": "Chelsea",
+      "total_points": 7
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Arsenal",
+        "value": 3
+      },
+      {
+        "team": "Man City",
+        "value": 3
+      },
+      {
+        "team": "Spurs",
+        "value": 3
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Aston Villa",
+        "value": 0
+      },
+      {
+        "team": "Crystal Palace",
+        "value": 0
+      },
+      {
+        "team": "Everton",
+        "value": 0
+      },
+      {
+        "team": "Fulham",
+        "value": 0
+      },
+      {
+        "team": "Liverpool",
+        "value": 0
+      },
+      {
+        "team": "Man City",
+        "value": 0
+      },
+      {
+        "team": "Newcastle",
+        "value": 0
+      },
+      {
+        "team": "Spurs",
+        "value": 0
+      },
+      {
+        "team": "Sunderland",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Bournemouth",
+        "value": 4
+      },
+      {
+        "team": "Brighton",
+        "value": 4
+      },
+      {
+        "team": "Wolves",
+        "value": 4
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Man City",
+        "value": 0
+      },
+      {
+        "team": "Man Utd",
+        "value": 0
+      }
+    ]
+  }
+}

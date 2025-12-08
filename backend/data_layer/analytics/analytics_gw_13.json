@@ -1,0 +1,142 @@
+{
+  "_id": "summary_gw_13",
+  "gameweek": 13,
+  "mvp": {
+    "name": "Malick Thiaw",
+    "team": "Newcastle",
+    "points": 16,
+    "goals": 2
+  },
+  "top_scorers": [
+    {
+      "name": "Igor Thiago Nascimento Rodrigues",
+      "team": "Brentford",
+      "goals": 2
+    },
+    {
+      "name": "Phil Foden",
+      "team": "Man City",
+      "goals": 2
+    },
+    {
+      "name": "Malick Thiaw",
+      "team": "Newcastle",
+      "goals": 2
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Emiliano Mart\u00ednez Romero",
+      "team": "Aston Villa",
+      "total_points": 7
+    },
+    {
+      "name": "Malick Thiaw",
+      "team": "Newcastle",
+      "total_points": 16
+    },
+    {
+      "name": "Maxim De Cuyper",
+      "team": "Brighton",
+      "total_points": 15
+    },
+    {
+      "name": "Kenny Tete",
+      "team": "Fulham",
+      "total_points": 12
+    },
+    {
+      "name": "Phil Foden",
+      "team": "Man City",
+      "total_points": 15
+    },
+    {
+      "name": "Lewis Miley",
+      "team": "Newcastle",
+      "total_points": 15
+    },
+    {
+      "name": "Cody Gakpo",
+      "team": "Liverpool",
+      "total_points": 14
+    },
+    {
+      "name": "Enzo Le F\u00e9e",
+      "team": "Sunderland",
+      "total_points": 13
+    },
+    {
+      "name": "Igor Thiago Nascimento Rodrigues",
+      "team": "Brentford",
+      "total_points": 13
+    },
+    {
+      "name": "Joshua Zirkzee",
+      "team": "Man Utd",
+      "total_points": 9
+    },
+    {
+      "name": "Nick Woltemade",
+      "team": "Newcastle",
+      "total_points": 7
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Newcastle",
+        "value": 4
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Aston Villa",
+        "value": 0
+      },
+      {
+        "team": "Brighton",
+        "value": 0
+      },
+      {
+        "team": "Liverpool",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 6
+      },
+      {
+        "team": "Bournemouth",
+        "value": 6
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Aston Villa",
+        "value": 0
+      },
+      {
+        "team": "Brentford",
+        "value": 0
+      },
+      {
+        "team": "Everton",
+        "value": 0
+      },
+      {
+        "team": "Liverpool",
+        "value": 0
+      },
+      {
+        "team": "Newcastle",
+        "value": 0
+      },
+      {
+        "team": "Nott'm Forest",
+        "value": 0
+      }
+    ]
+  }
+}

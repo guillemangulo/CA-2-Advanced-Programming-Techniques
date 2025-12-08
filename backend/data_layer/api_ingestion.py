@@ -1,102 +1,110 @@
 import requests
 import json
-from pathlib import Path
+import os
 
-# Config
 FPL_BASE = "https://fantasy.premierleague.com/api"
-OUT_PATH = Path("raw/")
+
+#current file and directory
+file_path = os.path.abspath(__file__)
+current_dir = os.path.dirname(file_path)
+OUT_PATH = os.path.join(current_dir, "raw")
 
 def get_bootstrap():
-    #we first get the entire json that later needs to be filtered
+    url = f"{FPL_BASE}/bootstrap-static/"
     try:
-        res = requests.get(f"{FPL_BASE}/bootstrap-static/")
+        res = requests.get(url)
         return res.json()
     except Exception as e:
-        print(f"CRITICAL: Failed to get bootstrap. {e}")
+        print(f"Error: Failed to get bootstrap. {e}")
         return None
 
-def get_last_gw(event_id=1):
+def last_gameweek(event_id):
     url = f"{FPL_BASE}/event/{event_id}/live/"
     try:
         res = requests.get(url)
         return res.json()
     except Exception as e:
-        print(f"Error getting stats for Game Week - {event_id}: {e}")
+        print(f"Error getting stats for Gameweek {event_id}: {e}")
         return None
 
-def run_data_extraction():
-    print("Initializing FPL API...")
+def data_extraction():
+    print("Getting Bootstrap...")
     
-    #entire json with all the info
-    base_data = get_bootstrap()
-    if not base_data:
-        return
+    #make sure that output path exists
+    if not os.path.exists(OUT_PATH):
+        os.makedirs(OUT_PATH)
 
-    #find finished gameweeks (if verified)
-    completed_gameweek = [
-        event for event in base_data['events'] 
-        if event['finished'] and event['data_checked']
-    ]
-    print(completed_gameweek)
-    
-    if not completed_gameweek:
-        print("No completed gameweeks found.")
-        return
-    
-    #pick the last of the list
-    current_gw = completed_gameweek[-1]
-    gameweek_id = current_gw['id']
-    print(f"Processing Gameweek: {current_gw['name']} (ID: {gameweek_id})")
+    basic_data = get_bootstrap()
+    if not basic_data: return []
 
-    #get the stats of that specific gameweek
-    last_gw_played = get_last_gw(gameweek_id)
-    if not last_gw_played:
-        return
+    events_list = basic_data['events']
+    completed_gameweeks = []
 
-    #map id players with name, same for teams
-    player_map = {}
-    for player in base_data['elements']: #elements is the list of players in bootstrap-static json
-        player_map[player['id']] = player
+    for event in events_list:
+        is_finished = event['finished']
+        is_verified = event['data_checked']
 
-    team_map = {}
-    for team in base_data['teams']:
-        team_map[team['id']] = team['name']
+        if is_finished and is_verified:
+            completed_gameweeks.append(event)
 
+    if not completed_gameweeks:
+        print("There are not gameweek finished")
+        return []
 
-    final_output = []
+    new_files_created = [] 
 
-    for live_statistics_player in last_gw_played['elements']: 
-        player_id = live_statistics_player['id']
-        stats = live_statistics_player['stats']
-        
-        #we dont save players with 0 mins played
-        if stats['minutes'] == 0:
+    for gw in completed_gameweeks:
+        gameweek_id = gw['id']
+        json_filename = "gameweek_" + str(gameweek_id) + ".json"
+        file_path = os.path.join(OUT_PATH, json_filename)
+
+        if os.path.exists(file_path):
             continue
+
+        print(f"Downloading new data: {gw['name']} (ID: {gameweek_id})")
+
+        last_gw_played = last_gameweek(gameweek_id)
+        if not last_gw_played: continue
+
+        #mapping
+        player_map = {}
+        for p in basic_data['elements']:
+            player_map[p['id']] = p
+
+        team_map = {}
+        for t in basic_data['teams']:
+            team_map[t['id']] = t['name']
+
+        final_output = []
+
+        for live_player in last_gw_played['elements']: 
+            stats = live_player['stats']
+
+            if stats['minutes'] == 0: 
+                continue
             
-        player_info = player_map.get(player_id)
-        if not player_info: 
-            continue
-        
-        row = {
-            "player_id": player_id,
-            "name": f"{player_info['first_name']} {player_info['second_name']}",
-            "team": team_map.get(player_info['team'], "Unknown"),
-            "position_code": player_info['element_type'],
-            "gameweek_index": gameweek_id,
-            "stadistics": stats
-        }
-        final_output.append(row)
+            player_id = live_player['id']
+            player_info = player_map.get(player_id)
 
-    #save it in to store it later on database
-    OUT_PATH.mkdir(exist_ok=True)
-    file_name = OUT_PATH / f"gameweek_{gameweek_id}.json"
+            if not player_info: 
+                continue
+            
+            row = {
+                "player_id": live_player['id'],
+                "name": f"{player_info['first_name']} {player_info['second_name']}",
+                "team": team_map.get(player_info['team'], "Unknown"),
+                "position_code": player_info['element_type'],
+                "gameweek_index": gameweek_id,
+                "statistics": stats
+            }
+            final_output.append(row)
+
+        #save the new gameweek file
+        with open(file_path, 'w') as f:
+            json.dump(final_output, f, indent=2)
+            
+        print(f"Saved: {file_path}")
+        new_files_created.append(file_path) 
+
     
-    with open(file_name, 'w') as f:
-        json.dump(final_output, f, indent=2)
-        
-    print("Saving to:", file_name.resolve())
-
-    print(f"Done. Records have been saved to {file_name}")
-
-if __name__ == "__main__":
-    run_data_extraction()
+    return new_files_created

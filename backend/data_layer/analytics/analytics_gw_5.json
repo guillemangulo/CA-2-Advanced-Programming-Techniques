@@ -1,0 +1,260 @@
+{
+  "_id": "summary_gw_5",
+  "gameweek": 5,
+  "mvp": {
+    "name": "Ryan Gravenberch",
+    "team": "Liverpool",
+    "points": 15,
+    "goals": 1
+  },
+  "top_scorers": [
+    {
+      "name": "Gabriel Martinelli Silva",
+      "team": "Arsenal",
+      "goals": 1
+    },
+    {
+      "name": "Matty Cash",
+      "team": "Aston Villa",
+      "goals": 1
+    },
+    {
+      "name": "Mikkel Damsgaard",
+      "team": "Brentford",
+      "goals": 1
+    },
+    {
+      "name": "Yankuba Minteh",
+      "team": "Brighton",
+      "goals": 1
+    },
+    {
+      "name": "Yasin Ayari",
+      "team": "Brighton",
+      "goals": 1
+    },
+    {
+      "name": "Jaidon Anthony",
+      "team": "Burnley",
+      "goals": 1
+    },
+    {
+      "name": "Trevoh Chalobah",
+      "team": "Chelsea",
+      "goals": 1
+    },
+    {
+      "name": "Tyrick Mitchell",
+      "team": "Crystal Palace",
+      "goals": 1
+    },
+    {
+      "name": "Jean-Philippe Mateta",
+      "team": "Crystal Palace",
+      "goals": 1
+    },
+    {
+      "name": "Idrissa Gana Gueye",
+      "team": "Everton",
+      "goals": 1
+    },
+    {
+      "name": "Alex Iwobi",
+      "team": "Fulham",
+      "goals": 1
+    },
+    {
+      "name": "Harry Wilson",
+      "team": "Fulham",
+      "goals": 1
+    },
+    {
+      "name": "Ryan Gravenberch",
+      "team": "Liverpool",
+      "goals": 1
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "goals": 1
+    },
+    {
+      "name": "Bruno Borges Fernandes",
+      "team": "Man Utd",
+      "goals": 1
+    },
+    {
+      "name": "Carlos Henrique Casimiro",
+      "team": "Man Utd",
+      "goals": 1
+    },
+    {
+      "name": "Neco Williams",
+      "team": "Nott'm Forest",
+      "goals": 1
+    },
+    {
+      "name": "Wilson Isidor",
+      "team": "Sunderland",
+      "goals": 1
+    },
+    {
+      "name": "Richarlison de Andrade",
+      "team": "Spurs",
+      "goals": 1
+    },
+    {
+      "name": "Jarrod Bowen",
+      "team": "West Ham",
+      "goals": 1
+    },
+    {
+      "name": "Anton Stach",
+      "team": "Leeds",
+      "goals": 1
+    },
+    {
+      "name": "Hugo Ekitik\u00e9",
+      "team": "Liverpool",
+      "goals": 1
+    },
+    {
+      "name": "Dominic Calvert-Lewin",
+      "team": "Leeds",
+      "goals": 1
+    },
+    {
+      "name": "Noah Okafor",
+      "team": "Leeds",
+      "goals": 1
+    },
+    {
+      "name": "Ladislav Krejc\u00ed",
+      "team": "Wolves",
+      "goals": 1
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "\u0110or\u0111e Petrovi\u0107",
+      "team": "Bournemouth",
+      "total_points": 6
+    },
+    {
+      "name": "Harry Maguire",
+      "team": "Man Utd",
+      "total_points": 11
+    },
+    {
+      "name": "Matty Cash",
+      "team": "Aston Villa",
+      "total_points": 10
+    },
+    {
+      "name": "Neco Williams",
+      "team": "Nott'm Forest",
+      "total_points": 10
+    },
+    {
+      "name": "Ryan Gravenberch",
+      "team": "Liverpool",
+      "total_points": 15
+    },
+    {
+      "name": "Anton Stach",
+      "team": "Leeds",
+      "total_points": 15
+    },
+    {
+      "name": "Alex Iwobi",
+      "team": "Fulham",
+      "total_points": 13
+    },
+    {
+      "name": "Jaidon Anthony",
+      "team": "Burnley",
+      "total_points": 10
+    },
+    {
+      "name": "Dominic Calvert-Lewin",
+      "team": "Leeds",
+      "total_points": 11
+    },
+    {
+      "name": "Richarlison de Andrade",
+      "team": "Spurs",
+      "total_points": 9
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "total_points": 9
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Leeds",
+        "value": 3
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Bournemouth",
+        "value": 0
+      },
+      {
+        "team": "Newcastle",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Chelsea",
+        "value": 6
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 1
+      },
+      {
+        "team": "Aston Villa",
+        "value": 1
+      },
+      {
+        "team": "Brentford",
+        "value": 1
+      },
+      {
+        "team": "Brighton",
+        "value": 1
+      },
+      {
+        "team": "Burnley",
+        "value": 1
+      },
+      {
+        "team": "Leeds",
+        "value": 1
+      },
+      {
+        "team": "Man Utd",
+        "value": 1
+      },
+      {
+        "team": "Newcastle",
+        "value": 1
+      },
+      {
+        "team": "Nott'm Forest",
+        "value": 1
+      },
+      {
+        "team": "Wolves",
+        "value": 1
+      }
+    ]
+  }
+}

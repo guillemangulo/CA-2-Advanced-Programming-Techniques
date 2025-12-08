@@ -1,0 +1,136 @@
+{
+  "_id": "summary_gw_11",
+  "gameweek": 11,
+  "mvp": {
+    "name": "Malo Gusto",
+    "team": "Chelsea",
+    "points": 15,
+    "goals": 1
+  },
+  "top_scorers": [
+    {
+      "name": "Igor Thiago Nascimento Rodrigues",
+      "team": "Brentford",
+      "goals": 2
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Emiliano Mart\u00ednez Romero",
+      "team": "Aston Villa",
+      "total_points": 14
+    },
+    {
+      "name": "Malo Gusto",
+      "team": "Chelsea",
+      "total_points": 15
+    },
+    {
+      "name": "Michael Keane",
+      "team": "Everton",
+      "total_points": 15
+    },
+    {
+      "name": "Matheus Nunes",
+      "team": "Man City",
+      "total_points": 13
+    },
+    {
+      "name": "Bukayo Saka",
+      "team": "Arsenal",
+      "total_points": 12
+    },
+    {
+      "name": "Tom\u00e1\u0161 Sou\u010dek",
+      "team": "West Ham",
+      "total_points": 12
+    },
+    {
+      "name": "J\u00e9r\u00e9my Doku",
+      "team": "Man City",
+      "total_points": 11
+    },
+    {
+      "name": "Alejandro Garnacho Ferreyra",
+      "team": "Chelsea",
+      "total_points": 11
+    },
+    {
+      "name": "Igor Thiago Nascimento Rodrigues",
+      "team": "Brentford",
+      "total_points": 13
+    },
+    {
+      "name": "Lukas Nmecha",
+      "team": "Leeds",
+      "total_points": 8
+    },
+    {
+      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+      "team": "Chelsea",
+      "total_points": 7
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Aston Villa",
+        "value": 4
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Aston Villa",
+        "value": 0
+      },
+      {
+        "team": "Brighton",
+        "value": 0
+      },
+      {
+        "team": "Chelsea",
+        "value": 0
+      },
+      {
+        "team": "Crystal Palace",
+        "value": 0
+      },
+      {
+        "team": "Everton",
+        "value": 0
+      },
+      {
+        "team": "Man City",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Spurs",
+        "value": 5
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 1
+      },
+      {
+        "team": "Chelsea",
+        "value": 1
+      },
+      {
+        "team": "Crystal Palace",
+        "value": 1
+      },
+      {
+        "team": "Leeds",
+        "value": 1
+      },
+      {
+        "team": "Man Utd",
+        "value": 1
+      }
+    ]
+  }
+}

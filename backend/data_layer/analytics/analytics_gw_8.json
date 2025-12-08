@@ -1,0 +1,156 @@
+{
+  "_id": "summary_gw_8",
+  "gameweek": 8,
+  "mvp": {
+    "name": "Reece James",
+    "team": "Chelsea",
+    "points": 18,
+    "goals": 1
+  },
+  "top_scorers": [
+    {
+      "name": "Jean-Philippe Mateta",
+      "team": "Crystal Palace",
+      "goals": 3
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Martin D\u00fabravka",
+      "team": "Burnley",
+      "total_points": 9
+    },
+    {
+      "name": "Reece James",
+      "team": "Chelsea",
+      "total_points": 18
+    },
+    {
+      "name": "Nordi Mukiele",
+      "team": "Sunderland",
+      "total_points": 17
+    },
+    {
+      "name": "Kyle Walker",
+      "team": "Burnley",
+      "total_points": 14
+    },
+    {
+      "name": "Pedro Lomba Neto",
+      "team": "Chelsea",
+      "total_points": 12
+    },
+    {
+      "name": "Rodrigo Bentancur",
+      "team": "Spurs",
+      "total_points": 12
+    },
+    {
+      "name": "Lesley Ugochukwu",
+      "team": "Burnley",
+      "total_points": 10
+    },
+    {
+      "name": "Leandro Trossard",
+      "team": "Arsenal",
+      "total_points": 10
+    },
+    {
+      "name": "Jean-Philippe Mateta",
+      "team": "Crystal Palace",
+      "total_points": 17
+    },
+    {
+      "name": "Danny Welbeck",
+      "team": "Brighton",
+      "total_points": 13
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "total_points": 13
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Bournemouth",
+        "value": 3
+      },
+      {
+        "team": "Chelsea",
+        "value": 3
+      },
+      {
+        "team": "Crystal Palace",
+        "value": 3
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Brentford",
+        "value": 0
+      },
+      {
+        "team": "Burnley",
+        "value": 0
+      },
+      {
+        "team": "Chelsea",
+        "value": 0
+      },
+      {
+        "team": "Man City",
+        "value": 0
+      },
+      {
+        "team": "Sunderland",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Bournemouth",
+        "value": 4
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Aston Villa",
+        "value": 0
+      },
+      {
+        "team": "Brighton",
+        "value": 0
+      },
+      {
+        "team": "Fulham",
+        "value": 0
+      },
+      {
+        "team": "Liverpool",
+        "value": 0
+      },
+      {
+        "team": "Man City",
+        "value": 0
+      },
+      {
+        "team": "Sunderland",
+        "value": 0
+      },
+      {
+        "team": "Wolves",
+        "value": 0
+      }
+    ]
+  }
+}

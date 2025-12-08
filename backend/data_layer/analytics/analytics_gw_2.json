@@ -1,0 +1,145 @@
+{
+  "_id": "summary_gw_2",
+  "gameweek": 2,
+  "mvp": {
+    "name": "Jurri\u00ebn Timber",
+    "team": "Arsenal",
+    "points": 24,
+    "goals": 2
+  },
+  "top_scorers": [
+    {
+      "name": "Jurri\u00ebn Timber",
+      "team": "Arsenal",
+      "goals": 2
+    },
+    {
+      "name": "Viktor Gy\u00f6keres",
+      "team": "Arsenal",
+      "goals": 2
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Jordan Pickford",
+      "team": "Everton",
+      "total_points": 15
+    },
+    {
+      "name": "Jurri\u00ebn Timber",
+      "team": "Arsenal",
+      "total_points": 24
+    },
+    {
+      "name": "Riccardo Calafiori",
+      "team": "Arsenal",
+      "total_points": 13
+    },
+    {
+      "name": "Michael Kayode",
+      "team": "Brentford",
+      "total_points": 10
+    },
+    {
+      "name": "Josh Cullen",
+      "team": "Burnley",
+      "total_points": 14
+    },
+    {
+      "name": "Jaidon Anthony",
+      "team": "Burnley",
+      "total_points": 13
+    },
+    {
+      "name": "Dango Ouattara",
+      "team": "Brentford",
+      "total_points": 13
+    },
+    {
+      "name": "Marcus Tavernier",
+      "team": "Bournemouth",
+      "total_points": 11
+    },
+    {
+      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+      "team": "Chelsea",
+      "total_points": 15
+    },
+    {
+      "name": "Viktor Gy\u00f6keres",
+      "team": "Arsenal",
+      "total_points": 12
+    },
+    {
+      "name": "Hugo Ekitik\u00e9",
+      "team": "Liverpool",
+      "total_points": 9
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Arsenal",
+        "value": 5
+      },
+      {
+        "team": "Chelsea",
+        "value": 5
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Bournemouth",
+        "value": 0
+      },
+      {
+        "team": "Brentford",
+        "value": 0
+      },
+      {
+        "team": "Burnley",
+        "value": 0
+      },
+      {
+        "team": "Everton",
+        "value": 0
+      },
+      {
+        "team": "Spurs",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Everton",
+        "value": 4
+      },
+      {
+        "team": "Spurs",
+        "value": 4
+      },
+      {
+        "team": "Wolves",
+        "value": 4
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Burnley",
+        "value": 0
+      },
+      {
+        "team": "West Ham",
+        "value": 0
+      }
+    ]
+  }
+}

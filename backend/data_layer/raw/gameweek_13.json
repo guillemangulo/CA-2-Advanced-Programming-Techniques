@@ -5,7 +5,7 @@
     "team": "Arsenal",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -42,7 +42,7 @@
     "team": "Arsenal",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -79,7 +79,7 @@
     "team": "Arsenal",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -116,7 +116,7 @@
     "team": "Arsenal",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -153,7 +153,7 @@
     "team": "Arsenal",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 1,
@@ -190,7 +190,7 @@
     "team": "Arsenal",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 33,
       "goals_scored": 0,
       "assists": 0,
@@ -227,7 +227,7 @@
     "team": "Arsenal",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 33,
       "goals_scored": 0,
       "assists": 0,
@@ -264,7 +264,7 @@
     "team": "Arsenal",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 56,
       "goals_scored": 0,
       "assists": 0,
@@ -301,7 +301,7 @@
     "team": "Arsenal",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -338,7 +338,7 @@
     "team": "Arsenal",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 0,
@@ -375,7 +375,7 @@
     "team": "Arsenal",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 56,
       "goals_scored": 0,
       "assists": 0,
@@ -412,7 +412,7 @@
     "team": "Brentford",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 15,
       "goals_scored": 0,
       "assists": 0,
@@ -449,7 +449,7 @@
     "team": "Aston Villa",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -486,7 +486,7 @@
     "team": "Aston Villa",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -523,7 +523,7 @@
     "team": "Aston Villa",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -560,7 +560,7 @@
     "team": "Aston Villa",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -597,7 +597,7 @@
     "team": "Aston Villa",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -634,7 +634,7 @@
     "team": "Aston Villa",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 2,
       "goals_scored": 0,
       "assists": 0,
@@ -671,7 +671,7 @@
     "team": "Aston Villa",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -708,7 +708,7 @@
     "team": "Aston Villa",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 74,
       "goals_scored": 0,
       "assists": 0,
@@ -745,7 +745,7 @@
     "team": "Aston Villa",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 53,
       "goals_scored": 0,
       "assists": 0,
@@ -782,7 +782,7 @@
     "team": "Newcastle",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 19,
       "goals_scored": 0,
       "assists": 0,
@@ -819,7 +819,7 @@
     "team": "Aston Villa",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 74,
       "goals_scored": 0,
       "assists": 0,
@@ -856,7 +856,7 @@
     "team": "Aston Villa",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 1,
@@ -893,7 +893,7 @@
     "team": "Aston Villa",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 12,
       "goals_scored": 0,
       "assists": 0,
@@ -930,7 +930,7 @@
     "team": "Aston Villa",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 87,
       "goals_scored": 1,
       "assists": 0,
@@ -967,7 +967,7 @@
     "team": "Aston Villa",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 15,
       "goals_scored": 0,
       "assists": 0,
@@ -1004,7 +1004,7 @@
     "team": "Aston Villa",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 36,
       "goals_scored": 0,
       "assists": 0,
@@ -1041,7 +1041,7 @@
     "team": "Bournemouth",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -1078,7 +1078,7 @@
     "team": "Bournemouth",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -1115,7 +1115,7 @@
     "team": "Bournemouth",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 79,
       "goals_scored": 0,
       "assists": 0,
@@ -1152,7 +1152,7 @@
     "team": "Bournemouth",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -1189,7 +1189,7 @@
     "team": "Bournemouth",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 19,
       "goals_scored": 0,
       "assists": 0,
@@ -1226,7 +1226,7 @@
     "team": "Bournemouth",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -1263,7 +1263,7 @@
     "team": "Brentford",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 1,
@@ -1300,7 +1300,7 @@
     "team": "Bournemouth",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -1337,7 +1337,7 @@
     "team": "Bournemouth",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 70,
       "goals_scored": 1,
       "assists": 0,
@@ -1374,7 +1374,7 @@
     "team": "Bournemouth",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 19,
       "goals_scored": 0,
       "assists": 0,
@@ -1411,7 +1411,7 @@
     "team": "Bournemouth",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -1448,7 +1448,7 @@
     "team": "Bournemouth",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -1485,7 +1485,7 @@
     "team": "Bournemouth",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 79,
       "goals_scored": 0,
       "assists": 1,
@@ -1522,7 +1522,7 @@
     "team": "Bournemouth",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 10,
       "goals_scored": 0,
       "assists": 0,
@@ -1559,7 +1559,7 @@
     "team": "Bournemouth",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 10,
       "goals_scored": 0,
       "assists": 0,
@@ -1596,7 +1596,7 @@
     "team": "Brentford",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -1633,7 +1633,7 @@
     "team": "Brentford",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -1670,7 +1670,7 @@
     "team": "Brentford",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 1,
       "goals_scored": 0,
       "assists": 0,
@@ -1707,7 +1707,7 @@
     "team": "Brentford",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 16,
       "goals_scored": 0,
       "assists": 0,
@@ -1744,7 +1744,7 @@
     "team": "Brentford",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -1781,7 +1781,7 @@
     "team": "Brentford",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -1818,7 +1818,7 @@
     "team": "Brentford",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 73,
       "goals_scored": 0,
       "assists": 0,
@@ -1855,7 +1855,7 @@
     "team": "Man Utd",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -1892,7 +1892,7 @@
     "team": "Brentford",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 74,
       "goals_scored": 0,
       "assists": 0,
@@ -1929,7 +1929,7 @@
     "team": "Brentford",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -1966,7 +1966,7 @@
     "team": "Brentford",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 1,
@@ -2003,7 +2003,7 @@
     "team": "Brentford",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 84,
       "goals_scored": 0,
       "assists": 0,
@@ -2040,7 +2040,7 @@
     "team": "Brentford",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 5,
       "goals_scored": 0,
       "assists": 0,
@@ -2077,7 +2077,7 @@
     "team": "Brentford",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 2,
       "assists": 0,
@@ -2114,7 +2114,7 @@
     "team": "Brighton",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -2151,7 +2151,7 @@
     "team": "Brighton",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 83,
       "goals_scored": 1,
       "assists": 0,
@@ -2188,7 +2188,7 @@
     "team": "Brighton",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -2225,7 +2225,7 @@
     "team": "Brighton",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -2262,7 +2262,7 @@
     "team": "Brighton",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -2299,7 +2299,7 @@
     "team": "Brighton",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 6,
       "goals_scored": 0,
       "assists": 0,
@@ -2336,7 +2336,7 @@
     "team": "Brighton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 55,
       "goals_scored": 0,
       "assists": 1,
@@ -2373,7 +2373,7 @@
     "team": "Brighton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 83,
       "goals_scored": 0,
       "assists": 0,
@@ -2410,7 +2410,7 @@
     "team": "Brighton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 6,
       "goals_scored": 0,
       "assists": 0,
@@ -2447,7 +2447,7 @@
     "team": "Brighton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 34,
       "goals_scored": 0,
       "assists": 0,
@@ -2484,7 +2484,7 @@
     "team": "Brighton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -2521,7 +2521,7 @@
     "team": "Brighton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 6,
       "goals_scored": 0,
       "assists": 0,
@@ -2558,7 +2558,7 @@
     "team": "Brighton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 83,
       "goals_scored": 0,
       "assists": 0,
@@ -2595,7 +2595,7 @@
     "team": "Brighton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -2632,7 +2632,7 @@
     "team": "Brighton",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 64,
       "goals_scored": 0,
       "assists": 0,
@@ -2669,7 +2669,7 @@
     "team": "Brighton",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 25,
       "goals_scored": 1,
       "assists": 0,
@@ -2706,7 +2706,7 @@
     "team": "Burnley",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -2743,7 +2743,7 @@
     "team": "Burnley",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -2780,7 +2780,7 @@
     "team": "Burnley",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -2817,7 +2817,7 @@
     "team": "Burnley",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -2854,7 +2854,7 @@
     "team": "Burnley",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 15,
       "goals_scored": 0,
       "assists": 1,
@@ -2891,7 +2891,7 @@
     "team": "Burnley",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 15,
       "goals_scored": 0,
       "assists": 0,
@@ -2928,7 +2928,7 @@
     "team": "Burnley",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 80,
       "goals_scored": 0,
       "assists": 0,
@@ -2965,7 +2965,7 @@
     "team": "Burnley",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 59,
       "goals_scored": 0,
       "assists": 0,
@@ -3002,7 +3002,7 @@
     "team": "Burnley",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 15,
       "goals_scored": 0,
       "assists": 0,
@@ -3039,7 +3039,7 @@
     "team": "Burnley",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 74,
       "goals_scored": 0,
       "assists": 0,
@@ -3076,7 +3076,7 @@
     "team": "Burnley",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 0,
@@ -3113,7 +3113,7 @@
     "team": "Burnley",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 74,
       "goals_scored": 0,
       "assists": 0,
@@ -3150,7 +3150,7 @@
     "team": "Chelsea",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -3187,7 +3187,7 @@
     "team": "Chelsea",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -3224,7 +3224,7 @@
     "team": "Chelsea",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 1,
@@ -3261,7 +3261,7 @@
     "team": "Chelsea",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 0,
@@ -3298,7 +3298,7 @@
     "team": "Chelsea",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -3335,7 +3335,7 @@
     "team": "Chelsea",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -3372,7 +3372,7 @@
     "team": "Chelsea",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -3409,7 +3409,7 @@
     "team": "Chelsea",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -3446,7 +3446,7 @@
     "team": "Chelsea",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -3483,7 +3483,7 @@
     "team": "Chelsea",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 37,
       "goals_scored": 0,
       "assists": 0,
@@ -3520,7 +3520,7 @@
     "team": "Everton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 0,
@@ -3557,7 +3557,7 @@
     "team": "Chelsea",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 54,
       "goals_scored": 0,
       "assists": 0,
@@ -3594,7 +3594,7 @@
     "team": "Chelsea",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 35,
       "goals_scored": 0,
       "assists": 0,
@@ -3631,7 +3631,7 @@
     "team": "Crystal Palace",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -3668,7 +3668,7 @@
     "team": "Crystal Palace",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -3705,7 +3705,7 @@
     "team": "Crystal Palace",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -3742,7 +3742,7 @@
     "team": "Crystal Palace",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 84,
       "goals_scored": 0,
       "assists": 0,
@@ -3779,7 +3779,7 @@
     "team": "Crystal Palace",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -3816,7 +3816,7 @@
     "team": "Crystal Palace",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -3853,7 +3853,7 @@
     "team": "Arsenal",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 71,
       "goals_scored": 0,
       "assists": 0,
@@ -3890,7 +3890,7 @@
     "team": "Crystal Palace",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 37,
       "goals_scored": 0,
       "assists": 0,
@@ -3927,7 +3927,7 @@
     "team": "Crystal Palace",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 12,
       "goals_scored": 0,
       "assists": 0,
@@ -3964,7 +3964,7 @@
     "team": "Crystal Palace",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 84,
       "goals_scored": 0,
       "assists": 0,
@@ -4001,7 +4001,7 @@
     "team": "Crystal Palace",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 5,
       "goals_scored": 0,
       "assists": 0,
@@ -4038,7 +4038,7 @@
     "team": "Crystal Palace",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 77,
       "goals_scored": 0,
       "assists": 0,
@@ -4075,7 +4075,7 @@
     "team": "Crystal Palace",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 5,
       "goals_scored": 0,
       "assists": 0,
@@ -4112,7 +4112,7 @@
     "team": "Crystal Palace",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 0,
@@ -4149,7 +4149,7 @@
     "team": "Crystal Palace",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 52,
       "goals_scored": 0,
       "assists": 0,
@@ -4186,7 +4186,7 @@
     "team": "Everton",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -4223,7 +4223,7 @@
     "team": "Everton",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 1,
@@ -4260,7 +4260,7 @@
     "team": "Everton",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -4297,7 +4297,7 @@
     "team": "Everton",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -4334,7 +4334,7 @@
     "team": "Everton",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -4371,7 +4371,7 @@
     "team": "Everton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 79,
       "goals_scored": 0,
       "assists": 0,
@@ -4408,7 +4408,7 @@
     "team": "Everton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 10,
       "goals_scored": 0,
       "assists": 0,
@@ -4445,7 +4445,7 @@
     "team": "Everton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -4482,7 +4482,7 @@
     "team": "Everton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -4519,7 +4519,7 @@
     "team": "Everton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -4556,7 +4556,7 @@
     "team": "Everton",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 86,
       "goals_scored": 0,
       "assists": 0,
@@ -4593,7 +4593,7 @@
     "team": "Everton",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 3,
       "goals_scored": 0,
       "assists": 0,
@@ -4630,7 +4630,7 @@
     "team": "Fulham",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -4667,7 +4667,7 @@
     "team": "Fulham",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -4704,7 +4704,7 @@
     "team": "Fulham",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -4741,7 +4741,7 @@
     "team": "Fulham",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 3,
       "goals_scored": 0,
       "assists": 0,
@@ -4778,7 +4778,7 @@
     "team": "Fulham",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 0,
@@ -4815,7 +4815,7 @@
     "team": "Fulham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 86,
       "goals_scored": 0,
       "assists": 0,
@@ -4852,7 +4852,7 @@
     "team": "Fulham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 22,
       "goals_scored": 0,
       "assists": 0,
@@ -4889,7 +4889,7 @@
     "team": "Fulham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -4926,7 +4926,7 @@
     "team": "Fulham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 67,
       "goals_scored": 1,
       "assists": 0,
@@ -4963,7 +4963,7 @@
     "team": "Fulham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5000,7 +5000,7 @@
     "team": "Fulham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 22,
       "goals_scored": 0,
       "assists": 0,
@@ -5037,7 +5037,7 @@
     "team": "Fulham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 67,
       "goals_scored": 0,
       "assists": 1,
@@ -5074,7 +5074,7 @@
     "team": "Fulham",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5111,7 +5111,7 @@
     "team": "Leeds",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5148,7 +5148,7 @@
     "team": "Leeds",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5185,7 +5185,7 @@
     "team": "Leeds",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -5222,7 +5222,7 @@
     "team": "Leeds",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 21,
       "goals_scored": 0,
       "assists": 0,
@@ -5259,7 +5259,7 @@
     "team": "Leeds",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5296,7 +5296,7 @@
     "team": "Leeds",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 1,
       "goals_scored": 0,
       "assists": 0,
@@ -5333,7 +5333,7 @@
     "team": "Leeds",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -5370,7 +5370,7 @@
     "team": "Leeds",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -5407,7 +5407,7 @@
     "team": "Leeds",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5444,7 +5444,7 @@
     "team": "Leeds",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5481,7 +5481,7 @@
     "team": "Leeds",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5518,7 +5518,7 @@
     "team": "Leeds",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 81,
       "goals_scored": 1,
       "assists": 0,
@@ -5555,7 +5555,7 @@
     "team": "Liverpool",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5592,7 +5592,7 @@
     "team": "Liverpool",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 84,
       "goals_scored": 0,
       "assists": 0,
@@ -5629,7 +5629,7 @@
     "team": "Liverpool",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 5,
       "goals_scored": 0,
       "assists": 0,
@@ -5666,7 +5666,7 @@
     "team": "Liverpool",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5703,7 +5703,7 @@
     "team": "Liverpool",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5740,7 +5740,7 @@
     "team": "Liverpool",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 1,
@@ -5777,7 +5777,7 @@
     "team": "Liverpool",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 74,
       "goals_scored": 0,
       "assists": 0,
@@ -5814,7 +5814,7 @@
     "team": "Liverpool",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 1,
@@ -5851,7 +5851,7 @@
     "team": "Liverpool",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5888,7 +5888,7 @@
     "team": "Liverpool",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5925,7 +5925,7 @@
     "team": "Liverpool",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 15,
       "goals_scored": 0,
       "assists": 0,
@@ -5962,7 +5962,7 @@
     "team": "Liverpool",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -5999,7 +5999,7 @@
     "team": "Man City",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 0,
@@ -6036,7 +6036,7 @@
     "team": "Man City",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 1,
@@ -6073,7 +6073,7 @@
     "team": "Man City",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -6110,7 +6110,7 @@
     "team": "Man City",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 1,
       "goals_scored": 0,
       "assists": 0,
@@ -6147,7 +6147,7 @@
     "team": "Man City",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 1,
@@ -6184,7 +6184,7 @@
     "team": "Man City",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 1,
       "goals_scored": 0,
       "assists": 0,
@@ -6221,7 +6221,7 @@
     "team": "Man City",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 2,
       "assists": 0,
@@ -6258,7 +6258,7 @@
     "team": "Man City",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 88,
       "goals_scored": 0,
       "assists": 0,
@@ -6295,7 +6295,7 @@
     "team": "Man City",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 15,
       "goals_scored": 0,
       "assists": 1,
@@ -6332,7 +6332,7 @@
     "team": "Man City",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -6369,7 +6369,7 @@
     "team": "Everton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 79,
       "goals_scored": 0,
       "assists": 0,
@@ -6406,7 +6406,7 @@
     "team": "Man City",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -6443,7 +6443,7 @@
     "team": "Nott'm Forest",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 5,
       "goals_scored": 0,
       "assists": 0,
@@ -6480,7 +6480,7 @@
     "team": "Man City",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 74,
       "goals_scored": 0,
       "assists": 0,
@@ -6517,7 +6517,7 @@
     "team": "Man City",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -6554,7 +6554,7 @@
     "team": "Man Utd",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -6591,7 +6591,7 @@
     "team": "Man Utd",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 8,
       "goals_scored": 0,
       "assists": 0,
@@ -6628,7 +6628,7 @@
     "team": "Man Utd",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 36,
       "goals_scored": 0,
       "assists": 0,
@@ -6665,7 +6665,7 @@
     "team": "Man Utd",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -6702,7 +6702,7 @@
     "team": "Man Utd",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 1,
       "goals_scored": 0,
       "assists": 0,
@@ -6739,7 +6739,7 @@
     "team": "Man Utd",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 81,
       "goals_scored": 0,
       "assists": 0,
@@ -6776,7 +6776,7 @@
     "team": "Man Utd",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 53,
       "goals_scored": 0,
       "assists": 0,
@@ -6813,7 +6813,7 @@
     "team": "Man Utd",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 2,
@@ -6850,7 +6850,7 @@
     "team": "Man Utd",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -6887,7 +6887,7 @@
     "team": "Chelsea",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -6924,7 +6924,7 @@
     "team": "Man Utd",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 0,
@@ -6961,7 +6961,7 @@
     "team": "Aston Villa",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 2,
       "goals_scored": 0,
       "assists": 0,
@@ -6998,7 +6998,7 @@
     "team": "Man Utd",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -7035,7 +7035,7 @@
     "team": "Man Utd",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 1,
       "goals_scored": 0,
       "assists": 0,
@@ -7072,7 +7072,7 @@
     "team": "Man Utd",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 0,
@@ -7109,7 +7109,7 @@
     "team": "Burnley",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -7146,7 +7146,7 @@
     "team": "Newcastle",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 89,
       "goals_scored": 0,
       "assists": 1,
@@ -7183,7 +7183,7 @@
     "team": "Newcastle",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 1,
       "goals_scored": 0,
       "assists": 0,
@@ -7220,7 +7220,7 @@
     "team": "Newcastle",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 1,
@@ -7257,7 +7257,7 @@
     "team": "Newcastle",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -7294,7 +7294,7 @@
     "team": "Newcastle",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 1,
       "goals_scored": 0,
       "assists": 0,
@@ -7331,7 +7331,7 @@
     "team": "Newcastle",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 70,
       "goals_scored": 0,
       "assists": 1,
@@ -7368,7 +7368,7 @@
     "team": "Newcastle",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 70,
       "goals_scored": 0,
       "assists": 0,
@@ -7405,7 +7405,7 @@
     "team": "Newcastle",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 89,
       "goals_scored": 0,
       "assists": 0,
@@ -7442,7 +7442,7 @@
     "team": "Newcastle",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -7479,7 +7479,7 @@
     "team": "Newcastle",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 1,
       "goals_scored": 0,
       "assists": 0,
@@ -7516,7 +7516,7 @@
     "team": "Newcastle",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 19,
       "goals_scored": 0,
       "assists": 0,
@@ -7553,7 +7553,7 @@
     "team": "Newcastle",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 1,
@@ -7590,7 +7590,7 @@
     "team": "Liverpool",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 67,
       "goals_scored": 1,
       "assists": 0,
@@ -7627,7 +7627,7 @@
     "team": "Nott'm Forest",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -7664,7 +7664,7 @@
     "team": "Nott'm Forest",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -7701,7 +7701,7 @@
     "team": "Nott'm Forest",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -7738,7 +7738,7 @@
     "team": "Nott'm Forest",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -7775,7 +7775,7 @@
     "team": "Nott'm Forest",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 84,
       "goals_scored": 0,
       "assists": 0,
@@ -7812,7 +7812,7 @@
     "team": "Nott'm Forest",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -7849,7 +7849,7 @@
     "team": "Nott'm Forest",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -7886,7 +7886,7 @@
     "team": "Nott'm Forest",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -7923,7 +7923,7 @@
     "team": "Nott'm Forest",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 73,
       "goals_scored": 0,
       "assists": 0,
@@ -7960,7 +7960,7 @@
     "team": "Nott'm Forest",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 16,
       "goals_scored": 0,
       "assists": 0,
@@ -7997,7 +7997,7 @@
     "team": "Nott'm Forest",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 74,
       "goals_scored": 0,
       "assists": 0,
@@ -8034,7 +8034,7 @@
     "team": "Sunderland",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -8071,7 +8071,7 @@
     "team": "Sunderland",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 27,
       "goals_scored": 0,
       "assists": 0,
@@ -8108,7 +8108,7 @@
     "team": "Sunderland",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 1,
@@ -8145,7 +8145,7 @@
     "team": "Sunderland",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 85,
       "goals_scored": 1,
       "assists": 1,
@@ -8182,7 +8182,7 @@
     "team": "Sunderland",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 27,
       "goals_scored": 0,
       "assists": 0,
@@ -8219,7 +8219,7 @@
     "team": "Sunderland",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -8256,7 +8256,7 @@
     "team": "Sunderland",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 62,
       "goals_scored": 0,
       "assists": 0,
@@ -8293,7 +8293,7 @@
     "team": "Sunderland",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 62,
       "goals_scored": 0,
       "assists": 0,
@@ -8330,7 +8330,7 @@
     "team": "Spurs",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -8367,7 +8367,7 @@
     "team": "Spurs",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -8404,7 +8404,7 @@
     "team": "Spurs",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -8441,7 +8441,7 @@
     "team": "Spurs",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 84,
       "goals_scored": 0,
       "assists": 0,
@@ -8478,7 +8478,7 @@
     "team": "Spurs",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -8515,7 +8515,7 @@
     "team": "Spurs",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 1,
       "assists": 0,
@@ -8552,7 +8552,7 @@
     "team": "Spurs",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 5,
       "goals_scored": 0,
       "assists": 0,
@@ -8589,7 +8589,7 @@
     "team": "Spurs",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 30,
       "goals_scored": 0,
       "assists": 0,
@@ -8626,7 +8626,7 @@
     "team": "Spurs",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 76,
       "goals_scored": 0,
       "assists": 1,
@@ -8663,7 +8663,7 @@
     "team": "Spurs",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 30,
       "goals_scored": 0,
       "assists": 0,
@@ -8700,7 +8700,7 @@
     "team": "Spurs",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 59,
       "goals_scored": 0,
       "assists": 0,
@@ -8737,7 +8737,7 @@
     "team": "Spurs",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 13,
       "goals_scored": 0,
       "assists": 0,
@@ -8774,7 +8774,7 @@
     "team": "Spurs",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 59,
       "goals_scored": 0,
       "assists": 0,
@@ -8811,7 +8811,7 @@
     "team": "West Ham",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -8848,7 +8848,7 @@
     "team": "West Ham",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -8885,7 +8885,7 @@
     "team": "West Ham",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -8922,7 +8922,7 @@
     "team": "West Ham",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -8959,7 +8959,7 @@
     "team": "West Ham",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -8996,7 +8996,7 @@
     "team": "West Ham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 83,
       "goals_scored": 0,
       "assists": 0,
@@ -9033,7 +9033,7 @@
     "team": "West Ham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 2,
       "goals_scored": 0,
       "assists": 0,
@@ -9070,7 +9070,7 @@
     "team": "West Ham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 22,
       "goals_scored": 0,
       "assists": 0,
@@ -9107,7 +9107,7 @@
     "team": "West Ham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 87,
       "goals_scored": 0,
       "assists": 0,
@@ -9144,7 +9144,7 @@
     "team": "West Ham",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -9181,7 +9181,7 @@
     "team": "West Ham",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 12,
       "goals_scored": 0,
       "assists": 0,
@@ -9218,7 +9218,7 @@
     "team": "Wolves",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -9255,7 +9255,7 @@
     "team": "Wolves",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -9292,7 +9292,7 @@
     "team": "Wolves",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 13,
       "goals_scored": 0,
       "assists": 0,
@@ -9329,7 +9329,7 @@
     "team": "Wolves",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 76,
       "goals_scored": 0,
       "assists": 0,
@@ -9366,7 +9366,7 @@
     "team": "Wolves",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -9403,7 +9403,7 @@
     "team": "Wolves",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -9440,7 +9440,7 @@
     "team": "Wolves",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 68,
       "goals_scored": 0,
       "assists": 0,
@@ -9477,7 +9477,7 @@
     "team": "Wolves",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -9514,7 +9514,7 @@
     "team": "Wolves",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 21,
       "goals_scored": 0,
       "assists": 0,
@@ -9551,7 +9551,7 @@
     "team": "Wolves",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -9588,7 +9588,7 @@
     "team": "Liverpool",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 22,
       "goals_scored": 0,
       "assists": 0,
@@ -9625,7 +9625,7 @@
     "team": "Arsenal",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -9662,7 +9662,7 @@
     "team": "Wolves",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 87,
       "goals_scored": 0,
       "assists": 0,
@@ -9699,7 +9699,7 @@
     "team": "Leeds",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -9736,7 +9736,7 @@
     "team": "Arsenal",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 18,
       "goals_scored": 0,
       "assists": 0,
@@ -9773,7 +9773,7 @@
     "team": "Sunderland",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 1,
@@ -9810,7 +9810,7 @@
     "team": "Nott'm Forest",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -9847,7 +9847,7 @@
     "team": "Sunderland",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -9884,7 +9884,7 @@
     "team": "West Ham",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 77,
       "goals_scored": 0,
       "assists": 0,
@@ -9921,7 +9921,7 @@
     "team": "Spurs",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 59,
       "goals_scored": 0,
       "assists": 0,
@@ -9958,7 +9958,7 @@
     "team": "Newcastle",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -9995,7 +9995,7 @@
     "team": "Burnley",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 30,
       "goals_scored": 0,
       "assists": 0,
@@ -10032,7 +10032,7 @@
     "team": "Burnley",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 9,
       "goals_scored": 0,
       "assists": 0,
@@ -10069,7 +10069,7 @@
     "team": "Wolves",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 76,
       "goals_scored": 0,
       "assists": 0,
@@ -10106,7 +10106,7 @@
     "team": "Sunderland",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -10143,7 +10143,7 @@
     "team": "Newcastle",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 2,
       "assists": 0,
@@ -10180,7 +10180,7 @@
     "team": "Bournemouth",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -10217,7 +10217,7 @@
     "team": "Leeds",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 1,
       "assists": 0,
@@ -10254,7 +10254,7 @@
     "team": "Nott'm Forest",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 45,
       "goals_scored": 0,
       "assists": 0,
@@ -10291,7 +10291,7 @@
     "team": "Sunderland",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -10328,7 +10328,7 @@
     "team": "Wolves",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -10365,7 +10365,7 @@
     "team": "Nott'm Forest",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 15,
       "goals_scored": 0,
       "assists": 0,
@@ -10402,7 +10402,7 @@
     "team": "Bournemouth",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 70,
       "goals_scored": 1,
       "assists": 0,
@@ -10439,7 +10439,7 @@
     "team": "Leeds",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 8,
       "goals_scored": 0,
       "assists": 0,
@@ -10476,7 +10476,7 @@
     "team": "Leeds",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 68,
       "goals_scored": 0,
       "assists": 0,
@@ -10513,7 +10513,7 @@
     "team": "Everton",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 10,
       "goals_scored": 0,
       "assists": 0,
@@ -10550,7 +10550,7 @@
     "team": "West Ham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -10587,7 +10587,7 @@
     "team": "Crystal Palace",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 77,
       "goals_scored": 0,
       "assists": 0,
@@ -10624,7 +10624,7 @@
     "team": "Newcastle",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 89,
       "goals_scored": 1,
       "assists": 0,
@@ -10661,7 +10661,7 @@
     "team": "Nott'm Forest",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -10698,7 +10698,7 @@
     "team": "Spurs",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 30,
       "goals_scored": 0,
       "assists": 0,
@@ -10735,7 +10735,7 @@
     "team": "West Ham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 67,
       "goals_scored": 0,
       "assists": 0,
@@ -10772,7 +10772,7 @@
     "team": "Wolves",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 2,
       "goals_scored": 0,
       "assists": 0,
@@ -10809,7 +10809,7 @@
     "team": "Burnley",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 74,
       "goals_scored": 0,
       "assists": 0,
@@ -10846,7 +10846,7 @@
     "team": "Sunderland",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 4,
       "goals_scored": 0,
       "assists": 0,
@@ -10883,7 +10883,7 @@
     "team": "Arsenal",
     "position_code": 2,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -10920,7 +10920,7 @@
     "team": "Spurs",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -10957,7 +10957,7 @@
     "team": "Fulham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 80,
       "goals_scored": 0,
       "assists": 1,
@@ -10994,7 +10994,7 @@
     "team": "Sunderland",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 27,
       "goals_scored": 1,
       "assists": 0,
@@ -11031,7 +11031,7 @@
     "team": "Fulham",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 9,
       "goals_scored": 0,
       "assists": 0,
@@ -11068,7 +11068,7 @@
     "team": "Crystal Palace",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 12,
       "goals_scored": 0,
       "assists": 0,
@@ -11105,7 +11105,7 @@
     "team": "Man Utd",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -11142,7 +11142,7 @@
     "team": "Sunderland",
     "position_code": 3,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 62,
       "goals_scored": 1,
       "assists": 0,
@@ -11179,7 +11179,7 @@
     "team": "Man City",
     "position_code": 1,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 90,
       "goals_scored": 0,
       "assists": 0,
@@ -11216,7 +11216,7 @@
     "team": "Wolves",
     "position_code": 4,
     "gameweek_index": 13,
-    "stadistics": {
+    "statistics": {
       "minutes": 13,
       "goals_scored": 0,
       "assists": 0,

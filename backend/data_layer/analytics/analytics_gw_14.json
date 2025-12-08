@@ -1,0 +1,164 @@
+{
+  "_id": "summary_gw_14",
+  "gameweek": 14,
+  "mvp": {
+    "name": "Cristian Romero",
+    "team": "Spurs",
+    "points": 17,
+    "goals": 2
+  },
+  "top_scorers": [
+    {
+      "name": "Ollie Watkins",
+      "team": "Aston Villa",
+      "goals": 2
+    },
+    {
+      "name": "Jan Paul van Hecke",
+      "team": "Brighton",
+      "goals": 2
+    },
+    {
+      "name": "Phil Foden",
+      "team": "Man City",
+      "goals": 2
+    },
+    {
+      "name": "Cristian Romero",
+      "team": "Spurs",
+      "goals": 2
+    },
+    {
+      "name": "Samuel Chukwueze",
+      "team": "Fulham",
+      "goals": 2
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Dean Henderson",
+      "team": "Crystal Palace",
+      "total_points": 7
+    },
+    {
+      "name": "Cristian Romero",
+      "team": "Spurs",
+      "total_points": 17
+    },
+    {
+      "name": "Diogo Dalot Teixeira",
+      "team": "Man Utd",
+      "total_points": 15
+    },
+    {
+      "name": "Daniel Mu\u00f1oz Mej\u00eda",
+      "team": "Crystal Palace",
+      "total_points": 14
+    },
+    {
+      "name": "Phil Foden",
+      "team": "Man City",
+      "total_points": 17
+    },
+    {
+      "name": "Mikel Merino Zaz\u00f3n",
+      "team": "Arsenal",
+      "total_points": 13
+    },
+    {
+      "name": "Samuel Chukwueze",
+      "team": "Fulham",
+      "total_points": 12
+    },
+    {
+      "name": "Jack Grealish",
+      "team": "Everton",
+      "total_points": 11
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "total_points": 14
+    },
+    {
+      "name": "Ollie Watkins",
+      "team": "Aston Villa",
+      "total_points": 13
+    },
+    {
+      "name": "Igor Jesus Maciel da Cruz",
+      "team": "Nott'm Forest",
+      "total_points": 9
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Aston Villa",
+        "value": 4
+      },
+      {
+        "team": "Fulham",
+        "value": 4
+      },
+      {
+        "team": "Man City",
+        "value": 4
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Crystal Palace",
+        "value": 0
+      },
+      {
+        "team": "Everton",
+        "value": 0
+      },
+      {
+        "team": "Nott'm Forest",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Bournemouth",
+        "value": 3
+      },
+      {
+        "team": "Everton",
+        "value": 3
+      },
+      {
+        "team": "Spurs",
+        "value": 3
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Burnley",
+        "value": 0
+      },
+      {
+        "team": "Crystal Palace",
+        "value": 0
+      },
+      {
+        "team": "Fulham",
+        "value": 0
+      },
+      {
+        "team": "Newcastle",
+        "value": 0
+      }
+    ]
+  }
+}

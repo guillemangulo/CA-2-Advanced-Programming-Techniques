@@ -1,0 +1,137 @@
+{
+  "_id": "summary_gw_7",
+  "gameweek": 7,
+  "mvp": {
+    "name": "Antoine Semenyo",
+    "team": "Bournemouth",
+    "points": 18,
+    "goals": 2
+  },
+  "top_scorers": [
+    {
+      "name": "Donyell Malen",
+      "team": "Aston Villa",
+      "goals": 2
+    },
+    {
+      "name": "Antoine Semenyo",
+      "team": "Bournemouth",
+      "goals": 2
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Senne Lammens",
+      "team": "Man Utd",
+      "total_points": 9
+    },
+    {
+      "name": "Jo\u0161ko Gvardiol",
+      "team": "Man City",
+      "total_points": 12
+    },
+    {
+      "name": "Jurri\u00ebn Timber",
+      "team": "Arsenal",
+      "total_points": 11
+    },
+    {
+      "name": "Dan Burn",
+      "team": "Newcastle",
+      "total_points": 11
+    },
+    {
+      "name": "Antoine Semenyo",
+      "team": "Bournemouth",
+      "total_points": 18
+    },
+    {
+      "name": "Donyell Malen",
+      "team": "Aston Villa",
+      "total_points": 15
+    },
+    {
+      "name": "Bruno Guimar\u00e3es Rodriguez Moura",
+      "team": "Newcastle",
+      "total_points": 14
+    },
+    {
+      "name": "Mohammed Kudus",
+      "team": "Spurs",
+      "total_points": 12
+    },
+    {
+      "name": "Benjamin Sesko",
+      "team": "Man Utd",
+      "total_points": 9
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "total_points": 8
+    },
+    {
+      "name": "Nick Woltemade",
+      "team": "Newcastle",
+      "total_points": 6
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Bournemouth",
+        "value": 3
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Man City",
+        "value": 0
+      },
+      {
+        "team": "Man Utd",
+        "value": 0
+      },
+      {
+        "team": "Newcastle",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Brighton",
+        "value": 4
+      },
+      {
+        "team": "Nott'm Forest",
+        "value": 4
+      },
+      {
+        "team": "Sunderland",
+        "value": 4
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Bournemouth",
+        "value": 0
+      },
+      {
+        "team": "Chelsea",
+        "value": 0
+      },
+      {
+        "team": "Newcastle",
+        "value": 0
+      }
+    ]
+  }
+}

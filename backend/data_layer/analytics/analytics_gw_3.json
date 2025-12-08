@@ -1,0 +1,260 @@
+{
+  "_id": "summary_gw_3",
+  "gameweek": 3,
+  "mvp": {
+    "name": "Marc Gu\u00e9hi",
+    "team": "Crystal Palace",
+    "points": 15,
+    "goals": 1
+  },
+  "top_scorers": [
+    {
+      "name": "Francisco Evanilson de Lima Barbosa",
+      "team": "Bournemouth",
+      "goals": 1
+    },
+    {
+      "name": "Bryan Mbeumo",
+      "team": "Man Utd",
+      "goals": 1
+    },
+    {
+      "name": "Igor Thiago Nascimento Rodrigues",
+      "team": "Brentford",
+      "goals": 1
+    },
+    {
+      "name": "Brajan Gruda",
+      "team": "Brighton",
+      "goals": 1
+    },
+    {
+      "name": "James Milner",
+      "team": "Brighton",
+      "goals": 1
+    },
+    {
+      "name": "Jaidon Anthony",
+      "team": "Burnley",
+      "goals": 1
+    },
+    {
+      "name": "Lyle Foster",
+      "team": "Burnley",
+      "goals": 1
+    },
+    {
+      "name": "Enzo Fern\u00e1ndez",
+      "team": "Chelsea",
+      "goals": 1
+    },
+    {
+      "name": "Kiernan Dewsbury-Hall",
+      "team": "Everton",
+      "goals": 1
+    },
+    {
+      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+      "team": "Chelsea",
+      "goals": 1
+    },
+    {
+      "name": "Marc Gu\u00e9hi",
+      "team": "Crystal Palace",
+      "goals": 1
+    },
+    {
+      "name": "Isma\u00efla Sarr",
+      "team": "Crystal Palace",
+      "goals": 1
+    },
+    {
+      "name": "Jean-Philippe Mateta",
+      "team": "Crystal Palace",
+      "goals": 1
+    },
+    {
+      "name": "Iliman Ndiaye",
+      "team": "Everton",
+      "goals": 1
+    },
+    {
+      "name": "Norberto Bercique Gomes Betuncal",
+      "team": "Everton",
+      "goals": 1
+    },
+    {
+      "name": "Dominik Szoboszlai",
+      "team": "Liverpool",
+      "goals": 1
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "goals": 1
+    },
+    {
+      "name": "Bruno Borges Fernandes",
+      "team": "Man Utd",
+      "goals": 1
+    },
+    {
+      "name": "Enzo Le F\u00e9e",
+      "team": "Sunderland",
+      "goals": 1
+    },
+    {
+      "name": "Wilson Isidor",
+      "team": "Sunderland",
+      "goals": 1
+    },
+    {
+      "name": "Lucas Tolentino Coelho de Lima",
+      "team": "West Ham",
+      "goals": 1
+    },
+    {
+      "name": "Jarrod Bowen",
+      "team": "West Ham",
+      "goals": 1
+    },
+    {
+      "name": "Rodrigo Martins Gomes",
+      "team": "Wolves",
+      "goals": 1
+    },
+    {
+      "name": "Hwang Hee-chan",
+      "team": "Wolves",
+      "goals": 1
+    },
+    {
+      "name": "Callum Wilson",
+      "team": "West Ham",
+      "goals": 1
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Robin Roefs",
+      "team": "Sunderland",
+      "total_points": 8
+    },
+    {
+      "name": "Marc Gu\u00e9hi",
+      "team": "Crystal Palace",
+      "total_points": 15
+    },
+    {
+      "name": "Marcos Senesi Bar\u00f3n",
+      "team": "Bournemouth",
+      "total_points": 14
+    },
+    {
+      "name": "Trevoh Chalobah",
+      "team": "Chelsea",
+      "total_points": 13
+    },
+    {
+      "name": "Dominik Szoboszlai",
+      "team": "Liverpool",
+      "total_points": 13
+    },
+    {
+      "name": "Enzo Fern\u00e1ndez",
+      "team": "Chelsea",
+      "total_points": 12
+    },
+    {
+      "name": "Kiernan Dewsbury-Hall",
+      "team": "Everton",
+      "total_points": 12
+    },
+    {
+      "name": "Enzo Le F\u00e9e",
+      "team": "Sunderland",
+      "total_points": 11
+    },
+    {
+      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+      "team": "Chelsea",
+      "total_points": 9
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "total_points": 9
+    },
+    {
+      "name": "Jarrod Bowen",
+      "team": "West Ham",
+      "total_points": 9
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Crystal Palace",
+        "value": 3
+      },
+      {
+        "team": "Everton",
+        "value": 3
+      },
+      {
+        "team": "West Ham",
+        "value": 3
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Bournemouth",
+        "value": 0
+      },
+      {
+        "team": "Chelsea",
+        "value": 0
+      },
+      {
+        "team": "Crystal Palace",
+        "value": 0
+      },
+      {
+        "team": "Leeds",
+        "value": 0
+      },
+      {
+        "team": "Liverpool",
+        "value": 0
+      },
+      {
+        "team": "Newcastle",
+        "value": 0
+      },
+      {
+        "team": "West Ham",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Burnley",
+        "value": 5
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Nott'm Forest",
+        "value": 0
+      },
+      {
+        "team": "West Ham",
+        "value": 0
+      },
+      {
+        "team": "Wolves",
+        "value": 0
+      }
+    ]
+  }
+}
