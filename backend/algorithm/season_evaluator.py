@@ -4,9 +4,9 @@ import pandas as pd
 from datetime import datetime
 from pymongo import MongoClient
 from dotenv import load_dotenv
-from collections import Counter # Commonly taught for counting things
+from collections import Counter
 
-# Load environment variables
+
 load_dotenv()
 
 MONGO_URI = os.getenv("MONGO_URI")
@@ -25,7 +25,7 @@ ANALYTICS_FOLDER = os.path.join(parent_folder, "data_layer", "analytics")
 
 
 def get_top_3_ranking(df_source, col_name):
-    # Sort and take top 3
+    #top 3
     sorted_df = df_source.sort_values(by=col_name, ascending=False).head(3)
     res = []
     for index, row in sorted_df.iterrows():
