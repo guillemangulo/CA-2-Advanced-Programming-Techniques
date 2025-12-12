@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Player: {{ series[0].name }}</h2>
+
+<section class="card-row">
+  <div class="card">
+    <h3>Recent points (per GW)</h3>
+    <canvas id="playerChart" height="80"></canvas>
+  </div>
+  <div class="card">
+    <h3>Summary</h3>
+    <p>Appearances: {{ records|length }}</p>
+    <p>Total points: {{ records | sum(attribute='statistics.total_points') }}</p>
+  </div>
+</section>
+
+<section>
+  <h3>Gameweek history</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>GW</th>
+        <th>Points</th>
+        <th>Minutes</th>
+        <th>Goals</th>
+        <th>Assists</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in records %}
+      <tr>
+        <td>{{ r.gameweek }}</td>
+        <td>{{ r.statistics.total_points or 0 }}</td>
+        <td>{{ r.statistics.minutes or 0 }}</td>
+        <td>{{ r.statistics.goals_scored or 0 }}</td>
+        <td>{{ r.statistics.assists or 0 }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<script>
+  // Avoid variable collision by renaming the injected data
+  const playerSeriesData = JSON.parse(`{{ series | tojson | safe }}`);
+
+  // Defensive programming in case data is missing
+  const orderedSeries = Array.isArray(playerSeriesData)
+      ? playerSeriesData
+      : [];
+
+  const labels = orderedSeries.map(s => 'GW ' + (s.gw || '?'));
+  const points = orderedSeries.map(s => s.points || 0);
+
+  (function createPlayerChart() {
+    const canvas = document.getElementById('playerChart');
+    if (!canvas || typeof Chart === 'undefined') return;
+
+    const ctx = canvas.getContext('2d');
+
+    // Destroy any previous chart if HMR reload happened
+    if (canvas._chartInstance) {
+      canvas._chartInstance.destroy();
+    }
+
+    canvas._chartInstance = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Points per Gameweek',
+          data: points,
+          borderWidth: 2,
+          tension: 0.3
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: true, position: 'top' }
+        },
+        scales: {
+          y: { beginAtZero: true }
+        }
+      }
+    });
+  })();
+</script>
+
+{% endblock %}
