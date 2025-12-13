@@ -13,6 +13,7 @@ def get_bootstrap():
     url = f"{FPL_BASE}/bootstrap-static/"
     try:
         res = requests.get(url)
+        res.raise_for_status()
         return res.json()
     except Exception as e:
         print(f"Error: Failed to get bootstrap. {e}")
@@ -22,6 +23,7 @@ def last_gameweek(event_id):
     url = f"{FPL_BASE}/event/{event_id}/live/"
     try:
         res = requests.get(url)
+        res.raise_for_status()   #found thanks to testing
         return res.json()
     except Exception as e:
         print(f"Error getting stats for Gameweek {event_id}: {e}")
@@ -106,5 +108,4 @@ def data_extraction():
         print(f"Saved: {file_path}")
         new_files_created.append(file_path) 
 
-    
     return new_files_created

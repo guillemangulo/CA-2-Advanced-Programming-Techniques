@@ -1,0 +1,137 @@
+{
+  "_id": "summary_gw_15",
+  "gameweek": 15,
+  "mvp": {
+    "name": "Bruno Borges Fernandes",
+    "team": "Man Utd",
+    "points": 18,
+    "goals": 2
+  },
+  "top_scorers": [
+    {
+      "name": "Bruno Borges Fernandes",
+      "team": "Man Utd",
+      "goals": 2
+    },
+    {
+      "name": "Hugo Ekitik\u00e9",
+      "team": "Liverpool",
+      "goals": 2
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Robert Lynch S\u00e1nchez",
+      "team": "Chelsea",
+      "total_points": 10
+    },
+    {
+      "name": "R\u00faben dos Santos Gato Alves Dias",
+      "team": "Man City",
+      "total_points": 14
+    },
+    {
+      "name": "Jo\u0161ko Gvardiol",
+      "team": "Man City",
+      "total_points": 12
+    },
+    {
+      "name": "Trevoh Chalobah",
+      "team": "Chelsea",
+      "total_points": 11
+    },
+    {
+      "name": "Bruno Borges Fernandes",
+      "team": "Man Utd",
+      "total_points": 18
+    },
+    {
+      "name": "Kiernan Dewsbury-Hall",
+      "team": "Everton",
+      "total_points": 16
+    },
+    {
+      "name": "Xavi Simons",
+      "team": "Spurs",
+      "total_points": 14
+    },
+    {
+      "name": "Phil Foden",
+      "team": "Man City",
+      "total_points": 12
+    },
+    {
+      "name": "Hugo Ekitik\u00e9",
+      "team": "Liverpool",
+      "total_points": 13
+    },
+    {
+      "name": "Eddie Nketiah",
+      "team": "Crystal Palace",
+      "total_points": 9
+    },
+    {
+      "name": "Jarrod Bowen",
+      "team": "West Ham",
+      "total_points": 9
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Man Utd",
+        "value": 4
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Bournemouth",
+        "value": 0
+      },
+      {
+        "team": "Chelsea",
+        "value": 0
+      },
+      {
+        "team": "Everton",
+        "value": 0
+      },
+      {
+        "team": "Man City",
+        "value": 0
+      },
+      {
+        "team": "Spurs",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Brentford",
+        "value": 4
+      },
+      {
+        "team": "Everton",
+        "value": 4
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Aston Villa",
+        "value": 0
+      },
+      {
+        "team": "Bournemouth",
+        "value": 0
+      },
+      {
+        "team": "Crystal Palace",
+        "value": 0
+      },
+      {
+        "team": "Fulham",
+        "value": 0
+      }
+    ]
+  }
+}

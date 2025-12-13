@@ -1,0 +1,472 @@
+{
+  "_id": "season_2025_2026",
+  "last_updated_gw": 15,
+  "leaders": {
+    "top_scorers": [
+      {
+        "name": "Erling Haaland",
+        "team": "Man City",
+        "value": 15.0,
+        "matches": 15,
+        "average_per_match": 1.0
+      }
+    ],
+    "top_assists": [
+      {
+        "name": "Yankuba Minteh",
+        "team": "Brighton",
+        "value": 7.0,
+        "matches": 15,
+        "average_per_match": 0.47
+      }
+    ],
+    "yellow_cards": [
+      {
+        "name": "Cristian Romero",
+        "team": "Spurs",
+        "value": 7.0,
+        "matches": 12,
+        "average_per_match": 0.58
+      }
+    ],
+    "red_cards": [
+      {
+        "name": "Ezri Konsa Ngoyo",
+        "team": "Aston Villa",
+        "value": 1.0,
+        "matches": 14,
+        "average_per_match": 0.07
+      },
+      {
+        "name": "Lewis Cook",
+        "team": "Bournemouth",
+        "value": 1.0,
+        "matches": 7,
+        "average_per_match": 0.14
+      },
+      {
+        "name": "Lucas Pires Silva",
+        "team": "Burnley",
+        "value": 1.0,
+        "matches": 2,
+        "average_per_match": 0.5
+      },
+      {
+        "name": "Robert Lynch S\u00e1nchez",
+        "team": "Chelsea",
+        "value": 1.0,
+        "matches": 15,
+        "average_per_match": 0.07
+      },
+      {
+        "name": "Trevoh Chalobah",
+        "team": "Chelsea",
+        "value": 1.0,
+        "matches": 14,
+        "average_per_match": 0.07
+      },
+      {
+        "name": "Malo Gusto",
+        "team": "Chelsea",
+        "value": 1.0,
+        "matches": 13,
+        "average_per_match": 0.08
+      },
+      {
+        "name": "Mois\u00e9s Caicedo Corozo",
+        "team": "Chelsea",
+        "value": 1.0,
+        "matches": 12,
+        "average_per_match": 0.08
+      },
+      {
+        "name": "Idrissa Gana Gueye",
+        "team": "Everton",
+        "value": 1.0,
+        "matches": 12,
+        "average_per_match": 0.08
+      },
+      {
+        "name": "Carlos Henrique Casimiro",
+        "team": "Man Utd",
+        "value": 1.0,
+        "matches": 14,
+        "average_per_match": 0.07
+      },
+      {
+        "name": "Dan Burn",
+        "team": "Newcastle",
+        "value": 1.0,
+        "matches": 14,
+        "average_per_match": 0.07
+      },
+      {
+        "name": "Anthony Gordon",
+        "team": "Newcastle",
+        "value": 1.0,
+        "matches": 10,
+        "average_per_match": 0.1
+      },
+      {
+        "name": "Luke O'Nien",
+        "team": "Sunderland",
+        "value": 1.0,
+        "matches": 2,
+        "average_per_match": 0.5
+      },
+      {
+        "name": "Reinildo Mandava",
+        "team": "Sunderland",
+        "value": 1.0,
+        "matches": 11,
+        "average_per_match": 0.09
+      },
+      {
+        "name": "Lucas Tolentino Coelho de Lima",
+        "team": "West Ham",
+        "value": 1.0,
+        "matches": 13,
+        "average_per_match": 0.08
+      },
+      {
+        "name": "Tom\u00e1\u0161 Sou\u010dek",
+        "team": "West Ham",
+        "value": 1.0,
+        "matches": 12,
+        "average_per_match": 0.08
+      },
+      {
+        "name": "Emmanuel Agbadou",
+        "team": "Wolves",
+        "value": 1.0,
+        "matches": 12,
+        "average_per_match": 0.08
+      },
+      {
+        "name": "Toti Gomes",
+        "team": "Wolves",
+        "value": 1.0,
+        "matches": 12,
+        "average_per_match": 0.08
+      },
+      {
+        "name": "Lesley Ugochukwu",
+        "team": "Burnley",
+        "value": 1.0,
+        "matches": 14,
+        "average_per_match": 0.07
+      }
+    ],
+    "least_conceded_gk": [
+      {
+        "name": "David Raya Mart\u00edn",
+        "team": "Arsenal",
+        "value": 9.0,
+        "matches": 15,
+        "average_per_match": 0.6
+      },
+      {
+        "name": "Emiliano Mart\u00ednez Romero",
+        "team": "Aston Villa",
+        "value": 9.0,
+        "matches": 12,
+        "average_per_match": 0.75
+      }
+    ],
+    "penalties_saver": [
+      {
+        "name": "Emiliano Mart\u00ednez Romero",
+        "team": "Aston Villa",
+        "value": 1.0,
+        "matches": 12,
+        "average_per_match": 0.08
+      },
+      {
+        "name": "Caoimh\u00edn Kelleher",
+        "team": "Brentford",
+        "value": 1.0,
+        "matches": 15,
+        "average_per_match": 0.07
+      },
+      {
+        "name": "Bart Verbruggen",
+        "team": "Brighton",
+        "value": 1.0,
+        "matches": 15,
+        "average_per_match": 0.07
+      },
+      {
+        "name": "Jordan Pickford",
+        "team": "Everton",
+        "value": 1.0,
+        "matches": 15,
+        "average_per_match": 0.07
+      },
+      {
+        "name": "Giorgi Mamardashvili",
+        "team": "Liverpool",
+        "value": 1.0,
+        "matches": 5,
+        "average_per_match": 0.2
+      },
+      {
+        "name": "Robin Roefs",
+        "team": "Sunderland",
+        "value": 1.0,
+        "matches": 15,
+        "average_per_match": 0.07
+      },
+      {
+        "name": "Gianluigi Donnarumma",
+        "team": "Man City",
+        "value": 1.0,
+        "matches": 12,
+        "average_per_match": 0.08
+      }
+    ],
+    "most_minutes": [
+      {
+        "name": "Sepp van den Berg",
+        "team": "Brentford",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      },
+      {
+        "name": "Jan Paul van Hecke",
+        "team": "Brighton",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      },
+      {
+        "name": "Kyle Walker",
+        "team": "Burnley",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      },
+      {
+        "name": "Maxence Lacroix",
+        "team": "Crystal Palace",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      },
+      {
+        "name": "James Tarkowski",
+        "team": "Everton",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      },
+      {
+        "name": "James Garner",
+        "team": "Everton",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      },
+      {
+        "name": "Joe Rodon",
+        "team": "Leeds",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      },
+      {
+        "name": "Virgil van Dijk",
+        "team": "Liverpool",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      },
+      {
+        "name": "Dominik Szoboszlai",
+        "team": "Liverpool",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      },
+      {
+        "name": "Nikola Milenkovi\u0107",
+        "team": "Nott'm Forest",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      },
+      {
+        "name": "Neco Williams",
+        "team": "Nott'm Forest",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      },
+      {
+        "name": "Elliot Anderson",
+        "team": "Nott'm Forest",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      },
+      {
+        "name": "Jarrod Bowen",
+        "team": "West Ham",
+        "value": 1350.0,
+        "matches": 15,
+        "average_per_match": 90.0
+      }
+    ],
+    "most_mvps": {
+      "names": [
+        "Daniel Ballard",
+        "Jurri\u00ebn Timber",
+        "Marc Gu\u00e9hi",
+        "Mart\u00edn Zubimendi Ib\u00e1\u00f1ez",
+        "Ryan Gravenberch",
+        "Omar Alderete",
+        "Antoine Semenyo",
+        "Reece James",
+        "Micky van de Ven",
+        "Diego G\u00f3mez Amarilla",
+        "Malo Gusto",
+        "Eberechi Eze",
+        "Malick Thiaw",
+        "Cristian Romero",
+        "Bruno Borges Fernandes"
+      ],
+      "count": 1
+    }
+  },
+  "teams": {
+    "most_goals_scored": [
+      {
+        "team": "Man City",
+        "goals_scored": 32.0
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Arsenal",
+        "goals_conceded": 9.0
+      }
+    ]
+  },
+  "top_lists": {
+    "top_3_scorers_last_3_gw": [
+      {
+        "name": "Phil Foden",
+        "team": "Man City",
+        "value": 5.0,
+        "matches": 3,
+        "average_per_match": 1.67
+      },
+      {
+        "name": "Dominic Calvert-Lewin",
+        "team": "Leeds",
+        "value": 3.0,
+        "matches": 3,
+        "average_per_match": 1.0
+      },
+      {
+        "name": "Tanaka Ao",
+        "team": "Leeds",
+        "value": 2.0,
+        "matches": 3,
+        "average_per_match": 0.67
+      }
+    ],
+    "top_3_assisters_last_3_gw": [
+      {
+        "name": "Rayan Cherki",
+        "team": "Man City",
+        "value": 3.0,
+        "matches": 3,
+        "average_per_match": 1.0
+      },
+      {
+        "name": "Bruno Borges Fernandes",
+        "team": "Man Utd",
+        "value": 3.0,
+        "matches": 3,
+        "average_per_match": 1.0
+      },
+      {
+        "name": "Enzo Le F\u00e9e",
+        "team": "Sunderland",
+        "value": 2.0,
+        "matches": 3,
+        "average_per_match": 0.67
+      }
+    ],
+    "top_3_expected_generators": [
+      {
+        "name": "Erling Haaland",
+        "team": "Man City",
+        "value": 14.04,
+        "matches": 15,
+        "average_per_match": 0.94
+      },
+      {
+        "name": "Jean-Philippe Mateta",
+        "team": "Crystal Palace",
+        "value": 9.91,
+        "matches": 15,
+        "average_per_match": 0.66
+      },
+      {
+        "name": "Igor Thiago Nascimento Rodrigues",
+        "team": "Brentford",
+        "value": 9.0,
+        "matches": 15,
+        "average_per_match": 0.6
+      }
+    ],
+    "top_3_best_defenders": [
+      {
+        "name": "Marc Gu\u00e9hi",
+        "team": "Crystal Palace",
+        "value": 91.0,
+        "matches": 14,
+        "average_per_match": 6.5
+      },
+      {
+        "name": "Daniel Mu\u00f1oz Mej\u00eda",
+        "team": "Crystal Palace",
+        "value": 89.0,
+        "matches": 14,
+        "average_per_match": 6.36
+      },
+      {
+        "name": "Trevoh Chalobah",
+        "team": "Chelsea",
+        "value": 82.0,
+        "matches": 14,
+        "average_per_match": 5.86
+      }
+    ],
+    "top_3_dream_team_appearances": [
+      {
+        "name": "Erling Haaland",
+        "team": "Man City",
+        "value": 6,
+        "matches": 15,
+        "average_per_match": 0.4
+      },
+      {
+        "name": "Kiernan Dewsbury-Hall",
+        "team": "Everton",
+        "value": 3,
+        "matches": 14,
+        "average_per_match": 0.21
+      },
+      {
+        "name": "Gabriel dos Santos Magalh\u00e3es",
+        "team": "Arsenal",
+        "value": 3,
+        "matches": 11,
+        "average_per_match": 0.27
+      }
+    ]
+  }
+}

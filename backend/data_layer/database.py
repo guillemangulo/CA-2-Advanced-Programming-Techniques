@@ -1,4 +1,4 @@
-#file that uploads each gameweek json file into mongodb 
+#file that communicates with MongoDB
 
 import json
 import os
@@ -11,6 +11,9 @@ load_dotenv()
 MONGO_URI = os.getenv("MONGO_URI")
 DB_NAME = os.getenv("DB_NAME")
 COLLECTION = os.getenv("COLLECTION")
+ANALYTICS_COLL = os.getenv("ANALYTICS_COLL")
+SEASON_COLL = os.getenv("SEASON_COLL")
+
 
 #convert some string fields into float
 def clean_metrics(stats):
@@ -85,6 +88,100 @@ def upload_to_mongo(json_file_path):
         print(f"File {json_file_path} not found")
     except Exception as e:
         print(e)
+    finally:
+        client.close()
+
+# AÑADIR AL FINAL DE backend/data_layer/database.py
+
+def fetch_all_raw_data():
+    """Retrieves all documents from the raw collection."""
+    client = MongoClient(MONGO_URI)
+    try:
+        db = client[DB_NAME]
+        collection = db[COLLECTION]
+        # Devolvemos una lista para cerrar el cursor y la conexión aquí
+        return list(collection.find({}))
+    except Exception as e:
+        print(f"Error fetching raw data: {e}")
+        return []
+    finally:
+        client.close()
+
+def save_season_data(season_summary):
+    """Saves the calculated analytics to the analytics collection."""
+    client = MongoClient(MONGO_URI)
+    try:
+        db = client[DB_NAME]
+        analytics_collection = db[ANALYTICS_COLL] # Asegurate de importar ANALYTICS_COLL arriba o definirla
+        
+        analytics_collection.replace_one(
+            {"_id": season_summary["_id"]}, 
+            season_summary, 
+            upsert=True
+        )
+        print(f"Season stats {season_summary['_id']} saved successfully.")
+    except Exception as e:
+        print(f"Error saving analytics: {e}")
+    finally:
+        client.close()
+
+
+def fetch_mvp_data():
+    client = MongoClient(MONGO_URI)
+    try:
+        db = client[DB_NAME]
+        analytics_collection = db[ANALYTICS_COLL]
+        cursor = analytics_collection.find({}, {"mvp": 1})
+
+        mvp_results = []
+        for doc in cursor:
+            mvp_results.append(doc)
+        return mvp_results
+    
+    except Exception as e:
+        print(f"Error fetching analytics MVPs: {e}")
+        return []
+    
+    finally:
+        client.close()
+
+#data for specific gameweek
+def fetch_gameweek_data(gameweek_id):
+    client = MongoClient(MONGO_URI)
+    try:
+        db = client[DB_NAME]
+        collection = db[COLLECTION]
+        
+        cursor = collection.find({"gameweek": gameweek_id})
+        gameweek_data = []
+        for doc in cursor:
+            gameweek_data.append(doc)
+            
+        return gameweek_data
+    
+    except Exception as e:
+        print(f"Error fetching gameweek {gameweek_id}: {e}")
+        return []
+    
+    finally:
+        client.close()
+
+#save data for specific gameweek
+def save_gameweek_data(summary_data):
+    client = MongoClient(MONGO_URI)
+    try:
+        db = client[DB_NAME]
+        analytics_db = db[ANALYTICS_COLL]
+        
+        analytics_db.replace_one(
+            {"_id": summary_data["_id"]}, 
+            summary_data, 
+            upsert=True
+        )
+
+    except Exception as e:
+        print(f"Error saving gameweek analytics: {e}")
+
     finally:
         client.close()
 

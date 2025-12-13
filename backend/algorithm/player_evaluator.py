@@ -1,16 +1,13 @@
+#creates Gameweeks table (with the info of all players in each gameweeks, calculate different metrics of this specific gameweek)
 import os
 import json
 import pandas as pd
+import sys
 
-from pymongo import MongoClient
-from dotenv import load_dotenv
 
-load_dotenv()
-
-MONGO_URI = os.getenv("MONGO_URI")
-DB_NAME = os.getenv("DB_NAME")
-COLLECTION = os.getenv("COLLECTION")
-ANALYTICS_COLL = os.getenv("ANALYTICS_COLL")
+PROJECT_ROOT = sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(PROJECT_ROOT)
+from data_layer.database import fetch_gameweek_data, save_gameweek_data
 
 file_path = os.path.abspath(__file__) # TODO: Document it
 current_folder = os.path.dirname(file_path)
@@ -51,14 +48,10 @@ def calculate_metrics(gameweek_id):
     print(f"Metrics for gameweek {gameweek_id} ...")
     
     try:
-        client = MongoClient(MONGO_URI)
-        db = client[DB_NAME]
-        collection = db[COLLECTION]
-
-        cursor = collection.find({"gameweek": gameweek_id})
+        gameweek_data = fetch_gameweek_data(gameweek_id)
         players_list = []
 
-        for doc in cursor:
+        for doc in gameweek_data:
             stats = doc.get('statistics', {})
             
             row = {
@@ -80,7 +73,6 @@ def calculate_metrics(gameweek_id):
 
         if len(players_list) == 0:
             print("There is not available data for this gameweek.")
-            client.close()
             return
 
         df = pd.DataFrame(players_list) # TODO: document it
@@ -161,18 +153,10 @@ def calculate_metrics(gameweek_id):
 
         with open(full_path, 'w') as f:
             json.dump(summary, f, indent=2)
-        
-        print(f"File saved at: {full_path}")
 
-        #save it to mongo
-        analytics_db = db[ANALYTICS_COLL]
-        analytics_db.replace_one(
-            {"_id": summary["_id"]}, summary, upsert=True
-        )
+        save_gameweek_data(summary)
         
-        print("Uploaded to MongoDB.")
     except Exception as e:
         print(f"Something happened: {e}")
         
-    finally:
-        client.close()
+

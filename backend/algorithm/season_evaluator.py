@@ -1,20 +1,15 @@
+# with the info of all gameweeks, calculates seasons metrics
 import os
 import json
 import pandas as pd
+import sys
 from datetime import datetime
-from pymongo import MongoClient
-from dotenv import load_dotenv
 from collections import Counter
 
+PROJECT_ROOT = sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(PROJECT_ROOT)
 
-load_dotenv()
-
-MONGO_URI = os.getenv("MONGO_URI")
-DB_NAME = os.getenv("DB_NAME")
-COLLECTION = os.getenv("COLLECTION")
-ANALYTICS_COLL = os.getenv("ANALYTICS_COLL")
-SEASON_COLL = os.getenv("SEASON_COLL")
-
+from data_layer.database import fetch_all_raw_data, save_season_data, fetch_mvp_data
 
 file_path = os.path.abspath(__file__)
 current_folder = os.path.dirname(file_path)
@@ -79,21 +74,14 @@ def find_winners(dataframe, column_name, method):
         })
     return results
 
-def get_mongo_client():
-    return MongoClient(MONGO_URI)
 
 def calculate_season_stats():
     print("Calculating season stats (including averages)...")
-    
-    client = get_mongo_client()
-    db = client[DB_NAME]
-    collection = db[COLLECTION]
-    analytics_collection = db[ANALYTICS_COLL]
 
-    cursor = collection.find({})
+    raw_data = fetch_all_raw_data()     #get the info of all players in each gameweek (Players table in MongoDB)
     players_list = []
     
-    for doc in cursor:
+    for doc in raw_data:
         stats = doc.get('statistics', {})
         
         row = {
@@ -118,7 +106,6 @@ def calculate_season_stats():
 
     if len(players_list) == 0:
         print("No raw data found in database.")
-        client.close()
         return
 
     df = pd.DataFrame(players_list)
@@ -208,9 +195,9 @@ def calculate_season_stats():
     top_3_defenders = get_top_3_ranking(defenders_df, 'total_points')
 
     #most MVPs
-    analytics_cursor = analytics_collection.find({}, {"mvp": 1})
+    analytics_data = fetch_mvp_data()      #mvp of each gameweek (Gameweeks table)
     mvp_names = []    
-    for doc in analytics_cursor:
+    for doc in analytics_data:
         mvp_data = doc.get('mvp', {})
 
         if 'name' in mvp_data:
@@ -276,12 +263,6 @@ def calculate_season_stats():
     with open(json_path, 'w') as f:
         json.dump(season_summary, f, indent=2)
 
-    #save to mongo
-    db[SEASON_COLL].replace_one(
-        {"_id": season_summary["_id"]}, 
-        season_summary, 
-        upsert=True
-    )
+    save_season_data(season_summary)
     
-    print("Season stats updated to MongoDB.")
-    client.close()
+    print("Season stats calculated")
