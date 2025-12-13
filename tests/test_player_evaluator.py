@@ -4,8 +4,9 @@ import sys
 import os
 import pandas as pd
 
-#backend
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+#to resolve backend imports
+PROJECT_ROOT = sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(PROJECT_ROOT)
 
 from backend.algorithm.player_evaluator import add_best_players, top_teams
 

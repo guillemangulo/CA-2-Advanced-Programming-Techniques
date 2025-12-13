@@ -4,17 +4,16 @@ import unittest
 import sys
 import os
 
-#backend folder
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+#to resolve backend imports
+PROJECT_ROOT = sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(PROJECT_ROOT)
 
 from backend.data_layer.database import clean_metrics
 
 class TestDatabase(unittest.TestCase):      #inheriting Testcase
 
     @classmethod
-    def setUpClass(cls):
-        print("\nSetting up test data....")
-        
+    def setUpClass(cls):        
         cls.valid_stats = {
             'influence': "35.2",
             'creativity': "10.0",
@@ -35,7 +34,6 @@ class TestDatabase(unittest.TestCase):      #inheriting Testcase
     
     @classmethod
     def tearDownClass(cls):
-        print("\nReleasing resources")
         return super().tearDownClass()
     
     def test1_float_conversion(self):
