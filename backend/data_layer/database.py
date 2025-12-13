@@ -1,3 +1,5 @@
+#file that uploads each gameweek json file into mongodb 
+
 import json
 import os
 from pymongo import MongoClient
@@ -9,10 +11,6 @@ load_dotenv()
 MONGO_URI = os.getenv("MONGO_URI")
 DB_NAME = os.getenv("DB_NAME")
 COLLECTION = os.getenv("COLLECTION")
-
-if not MONGO_URI:
-    print("Error: No MONGO_URI found in .env file")
-    exit()
 
 #convert some string fields into float
 def clean_metrics(stats):
@@ -79,7 +77,7 @@ def upload_to_mongo(json_file_path):
 
             # TODO: Document replace_one
             col.replace_one({"_id": unique_id}, doc, upsert=True)
-            count = count + 1
+            count += 1
 
         print("Processed " + str(count) + " players")
            

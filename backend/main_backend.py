@@ -1,5 +1,5 @@
+#entire workflow for the backend in a single file/execution
 import os
-#from pathlib import Path
 from data_layer.api_ingestion import data_extraction
 from data_layer.database import upload_to_mongo
 from algorithm.player_evaluator import calculate_metrics 

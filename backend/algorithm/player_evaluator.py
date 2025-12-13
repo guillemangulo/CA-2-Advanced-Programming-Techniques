@@ -31,7 +31,7 @@ def add_best_players(pos_id, count, df, dream_team):
                     "total_points": int(p['total_points'])
                 })
 
-# Funcion auxiliar para sacar listas de equipos empatados en una metrica
+#function to take team lists that are draw in a metric
 def top_teams(team_stats, column, method='max'):
     if method == 'max':
         target_value = team_stats[column].max()
@@ -115,10 +115,10 @@ def calculate_metrics(gameweek_id):
         #dreamteam
         dream_team = []    
 
-        add_best_players(1, 1, df, dream_team) # GK
-        add_best_players(2, 3, df, dream_team) # DEF
-        add_best_players(3, 4, df, dream_team) # MID
-        add_best_players(4, 3, df, dream_team) # FWD
+        add_best_players(1, 1, df, dream_team) #gk
+        add_best_players(2, 3, df, dream_team) #def
+        add_best_players(3, 4, df, dream_team) #mid
+        add_best_players(4, 3, df, dream_team) #fwd
 
         #team stats
         team_stats = df.groupby('team').agg({
