@@ -1,0 +1,188 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Season Overview</h2>
+
+<!-- ================= KPIs ================= -->
+<section class="card-row">
+
+  <div class="card kpi-card">
+    <h4>Gameweeks Played</h4>
+    <p class="kpi-value">{{ season.last_updated_gw }}</p>
+  </div>
+
+  <div class="card kpi-card">
+    <h4>Season Progress</h4>
+    <p class="kpi-value">
+      {{ ((season.last_updated_gw / 38) * 100) | round(1) }}%
+    </p>
+  </div>
+
+  <div class="card kpi-card">
+    <h4>Total MVP Awards</h4>
+    <p class="kpi-value">{{ season.leaders.most_mvps.count }}</p>
+  </div>
+
+  <div class="card kpi-card">
+    <h4>Top Scorer Goals</h4>
+    <p class="kpi-value">{{ season.leaders.top_scorers[0].value }}</p>
+    <span class="kpi-sub">{{ season.leaders.top_scorers[0].name }}</span>
+  </div>
+
+  <div class="card kpi-card warning">
+    <h4>Most Yellow Cards</h4>
+    <p class="kpi-value">{{ season.leaders.yellow_cards[0].value }}</p>
+    <span class="kpi-sub">{{ season.leaders.yellow_cards[0].name }}</span>
+  </div>
+
+  <div class="card kpi-card danger">
+    <h4>Total Red Cards</h4>
+    <p class="kpi-value">{{ season.leaders.red_cards | length }}</p>
+  </div>
+
+  <div class="card kpi-card">
+    <h4>Most Minutes Played</h4>
+    <p class="kpi-value">{{ season.leaders.most_minutes[0].value }}</p>
+    <span class="kpi-sub">{{ season.leaders.most_minutes[0].name }}</span>
+  </div>
+
+  <div class="card kpi-card">
+    <h4>Top xG Generator</h4>
+    <p class="kpi-value">
+      {{ season.top_lists.top_3_expected_generators[0].value }}
+    </p>
+    <span class="kpi-sub">
+      {{ season.top_lists.top_3_expected_generators[0].name }}
+    </span>
+  </div>
+
+</section>
+
+<!-- ================= LEADERS ================= -->
+<section class="card-row">
+
+  <div class="card highlight-card">
+    <h3>Top Scorer</h3>
+    <p class="highlight-name">
+      ⚽ {{ season.leaders.top_scorers[0].name }}
+    </p>
+    <p class="muted">
+      {{ season.leaders.top_scorers[0].value }} goals •
+      {{ season.leaders.top_scorers[0].matches }} matches
+    </p>
+  </div>
+
+  <div class="card highlight-card">
+    <h3>Top Assister</h3>
+    <p class="highlight-name">
+      🎯 {{ season.leaders.top_assists[0].name }}
+    </p>
+    <p class="muted">
+      {{ season.leaders.top_assists[0].value }} assists
+    </p>
+  </div>
+
+  <div class="card highlight-card scroll-card">
+    <h3>Most MVPs</h3>
+    <div class="pill-list">
+      {% for name in season.leaders.most_mvps.names %}
+        <span class="pill">⭐ {{ name }}</span>
+      {% endfor %}
+    </div>
+  </div>
+
+</section>
+
+<!-- ================= CHARTS ================= -->
+<section class="card-row">
+
+  <div class="card">
+    <h3>Goals Leaders</h3>
+    <canvas id="goalsLeadersChart" height="220"></canvas>
+  </div>
+
+  <div class="card">
+    <h3>Assists Leaders</h3>
+    <canvas id="assistsLeadersChart" height="220"></canvas>
+  </div>
+
+</section>
+
+<section>
+  <h3>Goals vs Assists (Season Leaders)</h3>
+  <div style="height:300px;">
+    <canvas id="comparisonChart"></canvas>
+  </div>
+</section>
+
+<!-- ================= SCRIPT (ONLY ONCE) ================= -->
+<script>
+  const seasonData = JSON.parse(`{{ season | tojson | safe }}`);
+
+  const topScorers = seasonData.leaders.top_scorers || [];
+  const topAssists = seasonData.leaders.top_assists || [];
+
+  /* Goals chart */
+  new Chart(document.getElementById('goalsLeadersChart'), {
+    type: 'bar',
+    data: {
+      labels: topScorers.map(p => p.name),
+      datasets: [{
+        label: 'Goals',
+        data: topScorers.map(p => p.value),
+        backgroundColor: '#2f6f44'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: { y: { beginAtZero: true } }
+    }
+  });
+
+  /* Assists chart */
+  new Chart(document.getElementById('assistsLeadersChart'), {
+    type: 'bar',
+    data: {
+      labels: topAssists.map(p => p.name),
+      datasets: [{
+        label: 'Assists',
+        data: topAssists.map(p => p.value),
+        backgroundColor: '#7bbf9e'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: { y: { beginAtZero: true } }
+    }
+  });
+
+  /* Comparison chart */
+  new Chart(document.getElementById('comparisonChart'), {
+    type: 'bar',
+    data: {
+      labels: topScorers.map(p => p.name),
+      datasets: [
+        {
+          label: 'Goals',
+          data: topScorers.map(p => p.value),
+          backgroundColor: '#2f6f44'
+        },
+        {
+          label: 'Assists',
+          data: topAssists.map(p => p.value),
+          backgroundColor: '#7bbf9e'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { position: 'top' } },
+      scales: { y: { beginAtZero: true } }
+    }
+  });
+</script>
+
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>All Gameweeks</h2>
+
+<div class="grid">
+  {% for a in analytics %}
+  <a class="gw-card colored" href="/gameweek/{{ a.gameweek }}">
+    <h3>GW {{ a.gameweek }}</h3>
+
+    {% if a.mvp %}
+      <p><strong>⭐ MVP:</strong> {{ a.mvp.name }} ({{ a.mvp.points }} pts)</p>
+    {% endif %}
+
+    {% if a.top_scorers %}
+    <p class="muted">
+      <strong>Top scorers:</strong>
+      {{ a.top_scorers | map(attribute='name') | join(', ') }}
+    </p>
+    
+    {% if a.team_stats.most_goals_scored %}
+    <p class="muted">
+      <strong>Most goals:</strong>
+      {{ a.team_stats.most_goals_scored[0].team }}
+      ({{ a.team_stats.most_goals_scored[0].value }})
+    </p>
+    {% endif %}
+    {% endif %}
+  </a>
+  {% endfor %}
+</div>
+
+{% endblock %}

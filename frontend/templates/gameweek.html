@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Gameweek {{ gw }} summary</h2>
+
+<section class="summary-row">
+  <div class="card">
+    <h3>MVP</h3>
+    <p class="big">{{ summary.mvp.name }}</p>
+    <p>{{ summary.mvp.team }} — {{ summary.mvp.points }} pts ({{ summary.mvp.goals }} goals)</p>
+  </div>
+
+  <div class="card">
+    <h3>Top scorers</h3>
+    <ul>
+      {% for t in summary.top_scorers %}
+      <li>{{ t.name }} — {{ t.goals }} goals ({{ t.team }})</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Team stats</h3>
+    <p><strong>Most goals:</strong></p>
+    <ul>
+      {% for t in summary.team_stats.most_goals_scored %}
+        <li>{{ t.team }} — {{ t.value }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h3>Team Goals Comparison</h3>
+  <div style="height:300px;">
+    <canvas id="teamGoalsChart"></canvas>
+  </div>
+</section>
+
+<section>
+  <h3>Dream Team</h3>
+  <div class="gw-grid">
+    {% for p in summary.dream_team %}
+      <div class="player-card">
+        <div class="player-name">{{ p.name }}</div>
+        <div class="player-team">{{ p.team }}</div>
+        <div class="player-points">{{ p.total_points }} pts</div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section>
+  <h3>Player raw records (this GW)</h3>
+
+  <div class="table-scroll">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Team</th>
+          <th>Minutes</th>
+          <th>Points</th>
+          <th>Goals</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for pr in players %}
+        <tr>
+          <td>
+            <a href="/player/{{ pr.player_id }}">{{ pr.name }}</a>
+          </td>
+          <td>{{ pr.team }}</td>
+          <td>{{ pr.statistics.minutes or 0 }}</td>
+          <td>{{ pr.statistics.total_points or 0 }}</td>
+          <td>{{ pr.statistics.goals_scored or 0 }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<script>
+  const gwData = JSON.parse(`{{ summary | tojson | safe }}`);
+
+  const teams = (gwData.team_stats?.most_goals_scored || []).map(t => t.team);
+  const goals = (gwData.team_stats?.most_goals_scored || []).map(t => t.value);
+
+  if (teams.length) {
+    new Chart(document.getElementById('teamGoalsChart'), {
+      type: 'bar',
+      data: {
+        labels: teams,
+        datasets: [{
+          label: 'Goals Scored',
+          data: goals,
+          backgroundColor: '#2f6f44'
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          y: { beginAtZero: true }
+        }
+      }
+    });
+  }
+</script>
+{% endblock %}

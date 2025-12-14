@@ -1,0 +1,301 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Season Dashboard</h2>
+
+<div class="card-row">
+  <div class="card gw-card">
+    <h3>Last updated GW</h3>
+  
+    <div class="gw-main">
+      GW {{ season.last_updated_gw }}
+    </div>
+  
+    <p class="gw-sub">Latest completed gameweek</p>
+  
+    <div class="gw-stats">
+      <div class="mini-stat">
+        <span class="mini-label">Gameweeks played</span>
+        <span class="mini-value">{{ season.last_updated_gw }}</span>
+      </div>
+  
+      <div class="mini-stat">
+        <span class="mini-label">Season progress</span>
+        <span class="mini-value">
+          {{ ((season.last_updated_gw / 38) * 100) | round(1) }}%
+        </span>
+      </div>
+    </div>
+  
+    <p class="insight-text">
+      Data updated after GW {{ season.last_updated_gw }}
+    </p>
+    <p class="gw-context">
+      Premier League season in progress
+    </p>
+  </div>
+
+  <div class="card scorer-card">
+    <h3>Top scorer (season)</h3>
+  
+    {% if season and season.leaders.top_scorers %}
+      <!-- Main scorer -->
+      <div class="scorer-tile">
+        <span class="scorer-name">
+          ⚽ {{ season.leaders.top_scorers[0].name }}
+        </span>
+        <span class="scorer-value">
+          {{ season.leaders.top_scorers[0].value }} goals
+        </span>
+      </div>
+  
+      <!-- Secondary insights -->
+      <div class="scorer-insights">
+        <div class="mini-stat">
+          <span class="mini-label">Games played</span>
+          <span class="mini-value">
+            {{ season.leaders.top_scorers[0].matches }}
+          </span>
+        </div>
+  
+        <div class="mini-stat">
+          <span class="mini-label">Goals / match</span>
+          <span class="mini-value">
+            {{ season.leaders.top_scorers[0].average_per_match }}
+          </span>
+        </div>
+      </div>
+  
+      <!-- Context text -->
+      <p class="insight-text">
+        Leading the scoring charts after {{ season.last_updated_gw }} gameweeks
+      </p>
+      <div class="highlight-tile">
+        <span class="highlight-title">Season impact</span>
+        <span class="highlight-text">
+          Direct goal involvement leader for {{ season.leaders.top_scorers[0].team }}
+        </span>
+      </div>
+  
+    {% else %}
+      <p>N/A</p>
+    {% endif %}
+  </div>
+
+  <div class="card mvp-card">
+    <h3>Most MVPs</h3>
+    <p class="muted">MVP appearances: {{ season.leaders.most_mvps.count }}</p>
+  
+    <div class="mvp-grid mvp-scroll-limited">
+      {% for name in season.leaders.most_mvps.names %}
+        <div class="mvp-tile">⭐ {{ name }}</div>
+      {% endfor %}
+    </div>
+  
+    <p class="scroll-hint">Scroll to see all MVPs</p>
+  </div>
+</div>
+
+<section>
+  <h3>Goals / Gameweek (analytics)</h3>
+  <div style="height:260px;">
+    <canvas id="goalsChart" height="260"></canvas>
+  </div>
+</section>
+
+<!-- ================= EXTRA ANALYTICS ================= -->
+<section class="card-row">
+
+  <!-- Discipline -->
+  <div class="card">
+    <h3>Discipline Trend</h3>
+    <div style="height:220px;">
+      <canvas id="cardsChart"></canvas>
+    </div>
+  </div>
+
+<!-- Attacking Momentum -->
+<div class="card">
+  <h3>Attacking Momentum</h3>
+  <p class="muted">Total goals scored across top teams</p>
+  <div style="height:220px;">
+    <canvas id="attackChart"></canvas>
+  </div>
+</div>
+
+</section>
+
+<section class="recent-section">
+  <h3>Recent Gameweeks</h3>
+
+  <div class="gw-grid">
+    {% for a in analytics %}
+      <a class="gw-tile" href="/gameweek/{{ a.gameweek }}">
+        <div class="gw-header">
+          <span class="gw-label">GW {{ a.gameweek }}</span>
+        </div>
+  
+        <div class="gw-body">
+          <p class="gw-mvp">
+            ⭐ <strong>MVP</strong><br>
+            {{ a.mvp.name }} <span class="points">({{ a.mvp.points }} pts)</span>
+          </p>
+  
+          <p class="gw-scorers">
+            <strong>Top scorers</strong><br>
+            {{ a.top_scorers | map(attribute='name') | list | join(', ') }}
+          </p>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+
+  <!-- See more -->
+  <div class="see-more-wrapper">
+    <a href="/gameweeks" class="see-more-btn">See all gameweeks →</a>
+  </div>
+</section>
+
+<script>
+  // Inject analytics safely as a JSON string and parse it so the editor and runtime are happy
+  const analyticsData = JSON.parse(`{{ analytics | tojson | safe }}`);
+
+  // Ensure array
+  const analyticsArr = Array.isArray(analyticsData) ? analyticsData : [];
+
+  // Sort ascending by GW number (defensive)
+  analyticsArr.sort((a, b) => (a.gameweek || 0) - (b.gameweek || 0));
+
+  // Build labels and derived goals metric (sum of team_stats.most_goals_scored values if present)
+  const labels = analyticsArr.map(a => 'GW ' + (a.gameweek || 'N/A'));
+  const goals = analyticsArr.map(a => {
+    try {
+      const mg = (a.team_stats && a.team_stats.most_goals_scored) ? a.team_stats.most_goals_scored : [];
+      let total = 0;
+      mg.forEach(x => { total += (x.value || 0); });
+      return total;
+    } catch (e) {
+      return 0;
+    }
+  });
+
+  (function initGoalsChart() {
+    const canvas = document.getElementById('goalsChart');
+    if (!canvas || typeof Chart === 'undefined') return;
+
+    const ctx = canvas.getContext('2d');
+
+    // Destroy old instance (useful during dev hot reloads)
+    if (canvas._chartInstance) {
+      canvas._chartInstance.destroy();
+    }
+
+    canvas._chartInstance = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Derived goals (sum of top teams)',
+          data: goals,
+          borderWidth: 1,
+          // leave colors to browser defaults; you can set colors here if you want
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          y: { beginAtZero: true, ticks: { precision: 0 } }
+        },
+        plugins: {
+          legend: { display: true, position: 'top' },
+          tooltip: { mode: 'index', intersect: false }
+        }
+      }
+    });
+  })();
+
+  /* ================= DISCIPLINE TREND ================= */
+(function initCardsChart() {
+  const canvas = document.getElementById('cardsChart');
+  if (!canvas || typeof Chart === 'undefined') return;
+
+  const yellow = analyticsArr.map(a => {
+    try {
+      return a.team_stats?.most_cards_conceded?.[0]?.value || 0;
+    } catch {
+      return 0;
+    }
+  });
+
+  const red = analyticsArr.map(a => {
+    return a.red_cards ? a.red_cards.length : 0;
+  });
+
+  new Chart(canvas.getContext('2d'), {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [
+        {
+          label: 'Yellow Cards',
+          data: yellow,
+          borderColor: '#f4c430',
+          backgroundColor: 'rgba(244,196,48,0.25)',
+          tension: 0.3
+        },
+        {
+          label: 'Red Cards',
+          data: red,
+          borderColor: '#d9534f',
+          backgroundColor: 'rgba(217,83,79,0.25)',
+          tension: 0.3
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: { y: { beginAtZero: true } }
+    }
+  });
+})();
+
+/* ================= DEFENSIVE STABILITY ================= */
+/* ================= ATTACKING MOMENTUM ================= */
+(function initAttackChart() {
+  const canvas = document.getElementById('attackChart');
+  if (!canvas || typeof Chart === 'undefined') return;
+
+  const attackTotals = analyticsArr.map(a => {
+    try {
+      return (a.team_stats?.most_goals_scored || [])
+        .reduce((sum, t) => sum + (t.value || 0), 0);
+    } catch {
+      return 0;
+    }
+  });
+
+  new Chart(canvas.getContext('2d'), {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Goals scored',
+        data: attackTotals,
+        borderColor: '#ff8c42',
+        backgroundColor: 'rgba(255,140,66,0.3)',
+        tension: 0.35,
+        fill: true
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        y: { beginAtZero: true }
+      }
+    }
+  });
+})();
+</script>
+{% endblock %}
