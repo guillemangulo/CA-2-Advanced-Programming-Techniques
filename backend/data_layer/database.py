@@ -78,7 +78,6 @@ def upload_to_mongo(json_file_path):
                 "statistics": clean_stats,
             }
 
-            # TODO: Document replace_one
             col.replace_one({"_id": unique_id}, doc, upsert=True)
             count += 1
 
@@ -91,15 +90,12 @@ def upload_to_mongo(json_file_path):
     finally:
         client.close()
 
-# AÑADIR AL FINAL DE backend/data_layer/database.py
 
 def fetch_all_raw_data():
-    """Retrieves all documents from the raw collection."""
     client = MongoClient(MONGO_URI)
     try:
         db = client[DB_NAME]
         collection = db[COLLECTION]
-        # Devolvemos una lista para cerrar el cursor y la conexión aquí
         return list(collection.find({}))
     except Exception as e:
         print(f"Error fetching raw data: {e}")
@@ -108,13 +104,12 @@ def fetch_all_raw_data():
         client.close()
 
 def save_season_data(season_summary):
-    """Saves the calculated analytics to the analytics collection."""
     client = MongoClient(MONGO_URI)
     try:
         db = client[DB_NAME]
-        analytics_collection = db[ANALYTICS_COLL] # Asegurate de importar ANALYTICS_COLL arriba o definirla
+        season_collection = db[SEASON_COLL] 
         
-        analytics_collection.replace_one(
+        season_collection.replace_one(
             {"_id": season_summary["_id"]}, 
             season_summary, 
             upsert=True
@@ -188,7 +183,6 @@ def save_gameweek_data(summary_data):
 if __name__ == "__main__":
 
     folder_path = "raw/"    
-    # os.listdir to give the files inside                           TODO: document it
     if os.path.exists(folder_path):
         files = os.listdir(folder_path)
         for filename in files:

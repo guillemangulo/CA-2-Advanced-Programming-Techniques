@@ -9,7 +9,7 @@ PROJECT_ROOT = sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__fi
 sys.path.append(PROJECT_ROOT)
 from data_layer.database import fetch_gameweek_data, save_gameweek_data
 
-file_path = os.path.abspath(__file__) # TODO: Document it
+file_path = os.path.abspath(__file__)
 current_folder = os.path.dirname(file_path)
 # cd ..
 parent_folder = os.path.dirname(current_folder)
@@ -75,7 +75,7 @@ def calculate_metrics(gameweek_id):
             print("There is not available data for this gameweek.")
             return
 
-        df = pd.DataFrame(players_list) # TODO: document it
+        df = pd.DataFrame(players_list)
     
     
         #MVP with no draw option
@@ -83,8 +83,13 @@ def calculate_metrics(gameweek_id):
             by=['total_points', 'goals_scored', 'in_dreamteam', 'influence', 'yellow_cards'],
             ascending=[False, False, False, False, True]
         )
-        mvp_row = df_sorted.iloc[0] #TODO: document it
-    
+        
+        if not df_sorted.empty:
+            #selects first row, highest value (MVP)
+            mvp_row = df_sorted.iloc[0] #iloc to find for position
+        else:
+            mvp_row = None
+        
         mvp_dict = {
             "name": mvp_row['name'],
             "team": mvp_row['team'],
@@ -155,6 +160,7 @@ def calculate_metrics(gameweek_id):
             json.dump(summary, f, indent=2)
 
         save_gameweek_data(summary)
+        print("Saved in MongoDB")
         
     except Exception as e:
         print(f"Something happened: {e}")

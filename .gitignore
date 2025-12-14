@@ -7,4 +7,3 @@ pycache/
 .DS_Store
 Thumbs.db
 
-app/data_layer/raw/
