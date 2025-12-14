@@ -7,7 +7,7 @@ from algorithm.season_evaluator import calculate_season_stats
 
 def main():
     #update just if there are new gameweeks
-    new_files_list = data_extraction()
+    new_files_list = data_extraction() #creates the json of each gw 
     
     if len(new_files_list) == 0:
         print("There are no new gameweeks to update.")
