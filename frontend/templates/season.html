@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Season overview</h2>
+
+<section class="card-row">
+  <div class="card">
+    <h3>Top Scorers</h3>
+    <ul>
+      {% for p in season.leaders.top_scorers %}
+      <li>{{ p.name }} — {{ p.value }} ({{ p.matches }} matches)</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Top Assisters</h3>
+    <ul>
+      {% for p in season.leaders.top_assists %}
+      <li>{{ p.name }} — {{ p.value }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<h2 id="gameweeks">All Gameweeks</h2>
+<section>
+  <h3>Top lists</h3>
+  <div class="grid">
+    <div class="card">
+      <h4>Top 3 scorers (last 3 GW)</h4>
+      <ul>
+        {% for p in season.top_lists.top_3_scorers_last_3_gw %}
+          <li>{{ p.name }} — {{ p.value }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>Top 3 assisters (last 3 GW)</h4>
+      <ul>
+        {% for p in season.top_lists.top_3_assisters_last_3_gw %}
+          <li>{{ p.name }} — {{ p.value }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+{% endblock %}
