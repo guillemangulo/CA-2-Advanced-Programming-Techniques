@@ -41,7 +41,6 @@ def main():
                 print(f"Error calculating metrics for {filename}: {e}")
     #seasons stats uploaded only if a new gameweek is detected/analysed
     if updates_made:
-        print("Recalculating season history...")
         calculate_season_stats()
 
 if __name__ == "__main__":

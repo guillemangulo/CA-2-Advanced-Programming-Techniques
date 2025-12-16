@@ -41,7 +41,7 @@ def clean_metrics(stats):
     return cleaned
 
 def upload_to_mongo(json_file_path):
-    print(f"Reading file: {json_file_path}...")
+    print(f"\nUploading to Mongo: {json_file_path}")
 
     #connection
     try:
@@ -81,7 +81,7 @@ def upload_to_mongo(json_file_path):
             col.replace_one({"_id": unique_id}, doc, upsert=True)
             count += 1
 
-        print("Processed " + str(count) + " players")
+        print("Processed/Inserted " + str(count) + " players")
            
     except FileNotFoundError:
         print(f"File {json_file_path} not found")
@@ -114,7 +114,7 @@ def save_season_data(season_summary):
             season_summary, 
             upsert=True
         )
-        print(f"Season stats {season_summary['_id']} saved successfully.")
+        print(f"Season stats for {season_summary['_id']} saved successfully to MongoDB")
     except Exception as e:
         print(f"Error saving analytics: {e}")
     finally:

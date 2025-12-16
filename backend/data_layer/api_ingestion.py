@@ -105,7 +105,7 @@ def data_extraction():
         with open(file_path, 'w') as f:
             json.dump(final_output, f, indent=2)
             
-        print(f"Saved: {file_path}")
+        print(f"JSON created and saved in: {file_path}")
         new_files_created.append(file_path) 
 
     return new_files_created

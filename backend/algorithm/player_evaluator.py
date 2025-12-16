@@ -45,7 +45,7 @@ def top_teams(team_stats, column, method='max'):
     return result_list
 
 def calculate_metrics(gameweek_id):
-    print(f"Metrics for gameweek {gameweek_id} ...")
+    print(f"Calculating metrics for gameweek {gameweek_id}")
     
     try:
         gameweek_data = fetch_gameweek_data(gameweek_id)
@@ -83,7 +83,7 @@ def calculate_metrics(gameweek_id):
             by=['total_points', 'goals_scored', 'in_dreamteam', 'influence', 'yellow_cards'],
             ascending=[False, False, False, False, True]
         )
-        
+
         if not df_sorted.empty:
             #selects first row, highest value (MVP)
             mvp_row = df_sorted.iloc[0] #iloc to find for position
@@ -160,7 +160,7 @@ def calculate_metrics(gameweek_id):
             json.dump(summary, f, indent=2)
 
         save_gameweek_data(summary)
-        print("Saved in MongoDB")
+        print(f"Metrics uploaded to MongoDB for GW {gameweek_id}")
         
     except Exception as e:
         print(f"Something happened: {e}")

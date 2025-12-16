@@ -76,7 +76,7 @@ def find_winners(dataframe, column_name, method):
 
 
 def calculate_season_stats():
-    print("Calculating season stats (including averages)...")
+    print("Recalculating season stats")
 
     raw_data = fetch_all_raw_data()     #get the info of all players in each gameweek (Players table in MongoDB)
     players_list = []
@@ -264,5 +264,5 @@ def calculate_season_stats():
         json.dump(season_summary, f, indent=2)
 
     save_season_data(season_summary)
-    
-    print("Season stats calculated")
+ 
+ 
