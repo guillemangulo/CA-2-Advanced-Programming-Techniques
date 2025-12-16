@@ -9,13 +9,13 @@
   },
   "top_scorers": [
     {
-      "name": "Gabriel Martinelli Silva",
-      "team": "Arsenal",
+      "name": "Matty Cash",
+      "team": "Aston Villa",
       "goals": 1
     },
     {
-      "name": "Matty Cash",
-      "team": "Aston Villa",
+      "name": "Gabriel Martinelli Silva",
+      "team": "Arsenal",
       "goals": 1
     },
     {
@@ -74,11 +74,6 @@
       "goals": 1
     },
     {
-      "name": "Erling Haaland",
-      "team": "Man City",
-      "goals": 1
-    },
-    {
       "name": "Bruno Borges Fernandes",
       "team": "Man Utd",
       "goals": 1
@@ -91,6 +86,11 @@
     {
       "name": "Neco Williams",
       "team": "Nott'm Forest",
+      "goals": 1
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
       "goals": 1
     },
     {

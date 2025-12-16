@@ -1,0 +1,151 @@
+{
+  "_id": "summary_gw_16",
+  "gameweek": 16,
+  "mvp": {
+    "name": "Callum Hudson-Odoi",
+    "team": "Nott'm Forest",
+    "points": 19,
+    "goals": 2
+  },
+  "top_scorers": [
+    {
+      "name": "Morgan Rogers",
+      "team": "Aston Villa",
+      "goals": 2
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "goals": 2
+    },
+    {
+      "name": "Callum Hudson-Odoi",
+      "team": "Nott'm Forest",
+      "goals": 2
+    },
+    {
+      "name": "Hugo Ekitik\u00e9",
+      "team": "Liverpool",
+      "goals": 2
+    }
+  ],
+  "dream_team": [
+    {
+      "name": "Robin Roefs",
+      "team": "Sunderland",
+      "total_points": 9
+    },
+    {
+      "name": "Malo Gusto",
+      "team": "Chelsea",
+      "total_points": 18
+    },
+    {
+      "name": "Matheus Nunes",
+      "team": "Man City",
+      "total_points": 11
+    },
+    {
+      "name": "Reinildo Mandava",
+      "team": "Sunderland",
+      "total_points": 10
+    },
+    {
+      "name": "Callum Hudson-Odoi",
+      "team": "Nott'm Forest",
+      "total_points": 19
+    },
+    {
+      "name": "Ibrahim Sangar\u00e9",
+      "team": "Nott'm Forest",
+      "total_points": 18
+    },
+    {
+      "name": "Harry Wilson",
+      "team": "Fulham",
+      "total_points": 16
+    },
+    {
+      "name": "Morgan Rogers",
+      "team": "Aston Villa",
+      "total_points": 15
+    },
+    {
+      "name": "Hugo Ekitik\u00e9",
+      "team": "Liverpool",
+      "total_points": 13
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Man City",
+      "total_points": 13
+    },
+    {
+      "name": "Dominic Calvert-Lewin",
+      "team": "Leeds",
+      "total_points": 9
+    }
+  ],
+  "team_stats": {
+    "most_goals_scored": [
+      {
+        "team": "Bournemouth",
+        "value": 4
+      },
+      {
+        "team": "Man Utd",
+        "value": 4
+      }
+    ],
+    "least_goals_conceded": [
+      {
+        "team": "Chelsea",
+        "value": 0
+      },
+      {
+        "team": "Liverpool",
+        "value": 0
+      },
+      {
+        "team": "Man City",
+        "value": 0
+      },
+      {
+        "team": "Nott'm Forest",
+        "value": 0
+      },
+      {
+        "team": "Sunderland",
+        "value": 0
+      }
+    ],
+    "most_cards_conceded": [
+      {
+        "team": "Sunderland",
+        "value": 5
+      }
+    ],
+    "least_cards_conceded": [
+      {
+        "team": "Arsenal",
+        "value": 0
+      },
+      {
+        "team": "Brentford",
+        "value": 0
+      },
+      {
+        "team": "Everton",
+        "value": 0
+      },
+      {
+        "team": "Leeds",
+        "value": 0
+      },
+      {
+        "team": "Man City",
+        "value": 0
+      }
+    ]
+  }
+}
