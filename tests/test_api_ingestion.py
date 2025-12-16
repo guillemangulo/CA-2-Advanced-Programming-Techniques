@@ -2,7 +2,6 @@ import unittest
 import sys
 import os
 
-# Resolvemos los imports del backend
 PROJECT_ROOT = sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 sys.path.append(PROJECT_ROOT)
 
