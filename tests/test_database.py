@@ -9,8 +9,8 @@ from pymongo import MongoClient
 PROJECT_ROOT = sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 sys.path.append(PROJECT_ROOT)
 
-from backend.data_layer.database import (clean_metrics, upload_to_mongo, fetch_gameweek_data, save_gameweek_data,
-                                          fetch_mpv_data, fetch_all_raw_data, MONGO_URI, DB_NAME, COLLECTION, ANALYTICS_COLL)
+from backend.data_layer.database import (clean_metrics, upload_to_mongo, save_gameweek_data,
+                                          fetch_mvp_data, MONGO_URI, DB_NAME, COLLECTION, ANALYTICS_COLL)
 
 class TestDatabase(unittest.TestCase):      #inheriting Testcase
 
@@ -105,7 +105,7 @@ class TestDatabase(unittest.TestCase):      #inheriting Testcase
         }
 
         save_gameweek_data(gw_summary)
-        all_mvps = fetch_mpv_data()
+        all_mvps = fetch_mvp_data()
         
         found = False
         for item in all_mvps:

@@ -16,7 +16,7 @@ parent_folder = os.path.dirname(current_folder)
 # datalayer/analytics
 ANALYTICS_FOLDER = os.path.join(parent_folder, "data_layer", "analytics")
 
-def add_best_players(pos_id, count, df, dream_team):
+def best_players(pos_id, count, df, dream_team):
             position_df = df[df['position_id'] == pos_id]
             sorted_pos = position_df.sort_values(by='total_points', ascending=False)
             best = sorted_pos.head(count)
@@ -28,7 +28,7 @@ def add_best_players(pos_id, count, df, dream_team):
                     "total_points": int(p['total_points'])
                 })
 
-#function to take team lists that are draw in a metric
+#function to take top team lists 
 def top_teams(team_stats, column, method='max'):
     if method == 'max':
         target_value = team_stats[column].max()
@@ -112,10 +112,10 @@ def calculate_metrics(gameweek_id):
         #dreamteam
         dream_team = []    
 
-        add_best_players(1, 1, df, dream_team) #gk
-        add_best_players(2, 3, df, dream_team) #def
-        add_best_players(3, 4, df, dream_team) #mid
-        add_best_players(4, 3, df, dream_team) #fwd
+        best_players(1, 1, df, dream_team) #gk
+        best_players(2, 3, df, dream_team) #def
+        best_players(3, 4, df, dream_team) #mid
+        best_players(4, 3, df, dream_team) #fwd
 
         #team stats
         team_stats = df.groupby('team').agg({

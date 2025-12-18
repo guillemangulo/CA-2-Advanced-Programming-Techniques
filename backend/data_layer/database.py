@@ -97,6 +97,7 @@ def fetch_all_raw_data():
         db = client[DB_NAME]
         collection = db[COLLECTION]
         return list(collection.find({}))
+    
     except Exception as e:
         print(f"Error fetching raw data: {e}")
         return []

@@ -8,7 +8,7 @@ import pandas as pd
 PROJECT_ROOT = sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 sys.path.append(PROJECT_ROOT)
 
-from backend.algorithm.player_evaluator import add_best_players, top_teams
+from backend.algorithm.player_evaluator import best_players, top_teams
 
 class TestPlayerEvaluation(unittest.TestCase):
 
@@ -30,16 +30,16 @@ class TestPlayerEvaluation(unittest.TestCase):
     def tearDown(self):
         return super().tearDown()
 
-    def test_add_best_players(self):
+    def test_best_players(self):
         #top1 defender
-        add_best_players(2, 1, self.df, self.dream_team)
+        best_players(2, 1, self.df, self.dream_team)
         self.assertEqual(len(self.dream_team), 1)
         self.assertEqual(self.dream_team[0]['name'], 'Defender Top')
         self.assertEqual(self.dream_team[0]['total_points'], 50)
 
-    def test_add_best_players_limit(self):
+    def test_best_players_limit(self):
         #there are 2 goalkeepers in data, but we ask for 5
-        add_best_players(1, 5, self.df, self.dream_team)
+        best_players(1, 5, self.df, self.dream_team)
         self.assertEqual(len(self.dream_team), 2)
 
     def test_top_teams_max(self):
